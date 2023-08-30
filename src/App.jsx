@@ -1,7 +1,7 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
-import studio from "@theatre/studio";
-import extension from "@theatre/r3f/dist/extension";
+// import studio from "@theatre/studio";
+// import extension from "@theatre/r3f/dist/extension";
 import {
 	SheetProvider,
 	PerspectiveCamera,
@@ -21,8 +21,8 @@ import Redbone from "../src/audio3.mp3";
 
 import { useState } from "react";
 import { useRef } from "react";
-studio.initialize();
-studio.extend(extension);
+// studio.initialize();
+// studio.extend(extension);
 // our Theatre.js project sheet, we'll use this later
 
 const demoSheet = getProject("Demo Project", { state: demoProjectState }).sheet(
