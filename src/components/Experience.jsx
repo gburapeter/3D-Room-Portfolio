@@ -43,7 +43,7 @@ export default function Experience() {
 	return (
 		<>
 			{/* <Perf position="top-left" /> */}
-			<color args={["#C4F7F9"]} attach={"background"} />
+			{/* <color args={["#C4F7F9"]} attach={"background"} /> */}
 			{/* <OrbitControls /> */}
 			<ambientLight color="#FFDAB9" intensity={2} />
 			<directionalLight color="#FFD700" intensity={1} position={[1, 1, 0]} />

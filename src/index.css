@@ -6,4 +6,11 @@ body,
 	left: 0;
 	width: 100%;
 	height: 100%;
+	background: rgb(220, 212, 241);
+	background: linear-gradient(
+		0deg,
+		rgba(220, 212, 241, 1) 0%,
+		rgba(142, 203, 250, 1) 50%,
+		rgba(28, 152, 247, 1) 100%
+	);
 }
