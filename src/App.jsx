@@ -62,7 +62,7 @@ export default function App(props) {
 	}, []);
 
 	const playgang = () => {
-		console.log("dones");
+		console.log("done");
 		stop();
 	};
 	const startbro = () => {
