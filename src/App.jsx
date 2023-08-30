@@ -1,7 +1,7 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
-// import studio from "@theatre/studio";
-// import extension from "@theatre/r3f/dist/extension";
+import studio from "@theatre/studio";
+import extension from "@theatre/r3f/dist/extension";
 import {
 	SheetProvider,
 	PerspectiveCamera,
@@ -11,7 +11,7 @@ import { getProject, onChange } from "@theatre/core";
 import Experience from "./components/Experience";
 import { Environment, Loader, ScrollControls } from "@react-three/drei";
 import { Leva } from "leva";
-import demoProjectState from "./stategoodv1.json";
+import demoProjectState from "./guccistate.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
 
@@ -21,8 +21,11 @@ import Redbone from "../src/audio3.mp3";
 
 import { useState } from "react";
 import { useRef } from "react";
-// studio.initialize();
-// studio.extend(extension);
+if (import.meta.env.DEV) {
+	studio.initialize();
+	studio.extend(extension);
+}
+
 // our Theatre.js project sheet, we'll use this later
 
 const demoSheet = getProject("Demo Project", { state: demoProjectState }).sheet(
@@ -51,11 +54,12 @@ export default function App(props) {
 		}
 	);
 
-	// useEffect(() => {
-	// 	demoSheet.project.ready.then(() =>
-	// 		demoSheet.sequence.play().then(() => playgang())
-	// 	);
-	// }, []);
+	useEffect(() => {
+		// demoSheet.project.ready.then(() =>
+		// 	demoSheet.sequence.play().then(() => playgang())
+		// );
+		stop();
+	}, []);
 
 	const playgang = () => {
 		console.log("done");
@@ -74,7 +78,7 @@ export default function App(props) {
 				shadows
 			>
 				{/* <Environment preset="sunset" /> */}
-				<ScrollControls pages={5} damping={1} maxSpeed={0.5}>
+				<ScrollControls pages={15} damping={1} maxSpeed={0.3}>
 					<SheetProvider sheet={demoSheet}>
 						<PerspectiveCamera
 							theatreKey="Camera"
@@ -83,7 +87,7 @@ export default function App(props) {
 							rotation={[-0.7, 0.46, 0.36]}
 							fov={75}
 						/>
-						<Experience />
+						<Experience stopFunction={stop} />
 					</SheetProvider>
 				</ScrollControls>
 			</Canvas>
