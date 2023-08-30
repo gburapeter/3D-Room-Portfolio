@@ -11,7 +11,7 @@ import { getProject, onChange } from "@theatre/core";
 import Experience from "./components/Experience";
 import { Environment, Loader, ScrollControls } from "@react-three/drei";
 import { Leva } from "leva";
-import demoProjectState from "./stategood.json";
+import demoProjectState from "./stategoodv1.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
 
