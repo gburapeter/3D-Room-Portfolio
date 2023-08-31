@@ -88,7 +88,6 @@ export const Overlay = () => {
 																	href="/tags/next-js"
 																>
 																	Salesforce Developer Intern
-																	Apex
 																</a>
 															</div>
 														</div>
@@ -140,7 +139,8 @@ export const Overlay = () => {
 															developing a fullstack admin panel
 															in Laravel. Frontend has been a mix
 															of Laravel Livewire and classic
-															blade syntax. Database:
+															blade syntax mixed with some
+															Tailwind CSS. Database:
 															MySQL/MariaDB. Main focuses: Rest
 															API creation, db transactions,
 															query optimization, UI
@@ -192,8 +192,8 @@ export const Overlay = () => {
 															Development of a web application
 															for a leading danish media group.
 															Laravel backend with a MariaDB
-															behind it, and Livewire
-															client-side.
+															behind it, and Livewire client-side
+															powered by Tailwind
 														</div>
 													</div>
 												</div>
