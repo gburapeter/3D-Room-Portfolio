@@ -18,7 +18,7 @@ export function PleaseWork(props) {
 	});
 	return (
 		<group {...props} dispose={null}>
-			<group name="Scene">
+			<e.group name="Scene" theatreKey="Scene">
 				<group name="Plane015" position={[0, 0.1, 0]}>
 					<mesh
 						name="Plane044_1"
@@ -395,7 +395,8 @@ export function PleaseWork(props) {
 						material={materials["Material.045"]}
 					/>
 				</group>
-				<group
+				<e.group
+					theatreKey="macScreengang"
 					name="Cube021"
 					position={[1.468, 0.94, -3.607]}
 					rotation={[1.309, 0, 0]}
@@ -485,7 +486,7 @@ export function PleaseWork(props) {
 						geometry={nodes.Cube016_16.geometry}
 						material={materials["Material.024"]}
 					/>
-				</group>
+				</e.group>
 				<mesh
 					name="Plane014"
 					geometry={nodes.Plane014.geometry}
@@ -2656,7 +2657,7 @@ export function PleaseWork(props) {
 					name="Phillips_Pan_Head_Screw034"
 					instanceMatrix={nodes.Phillips_Pan_Head_Screw034.instanceMatrix}
 				/>
-			</group>
+			</e.group>
 		</group>
 	);
 }

@@ -8,14 +8,15 @@ import {
 	useScroll,
 } from "@react-three/drei";
 import { Suspense } from "react";
-import { ROOMGO } from "../Roomscalednew-v2";
 
 import { Html, useProgress } from "@react-three/drei";
 import { useCurrentSheet } from "@theatre/r3f";
 import { useFrame } from "@react-three/fiber";
-import PacmanLoader from "react-spinners/PacmanLoader";
+
 import { PleaseWork } from "../Roomscaledgogo-v1";
 import { val } from "@theatre/core";
+import { Overlay } from "./Overlay";
+import "../App.css";
 const Loader = () => {
 	const { progress, loaded, total } = useProgress();
 
@@ -41,6 +42,7 @@ export default function Experience({ stopFunction }) {
 	useFrame(() => {
 		// the length of our sequence
 		const sequenceLength = val(sheet.sequence.pointer.length);
+		// console.log(sequenceLength);
 		// update the "position" of the playhead in the sequence, as a fraction of its whole length
 		sheet.sequence.position = scroll.offset * sequenceLength;
 		// console.log(sheet.sequence.position);
@@ -77,6 +79,7 @@ export default function Experience({ stopFunction }) {
 			>
 				{<PleaseWork />}
 			</Suspense>
+			<Overlay />
 			{/* </Center> */}
 		</>
 	);
