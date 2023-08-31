@@ -388,7 +388,7 @@ export const Overlay = () => {
 															Three.js - slowly shifting towards
 															R3F. Used libraries as: GSAP,
 															Theatre.js for animations/camera
-															work.
+															work and Blender for modelling.
 														</div>
 													</div>
 													<div class="text-base font-medium italic leading-6">
