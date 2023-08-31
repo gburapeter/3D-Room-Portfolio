@@ -1,42 +1,6 @@
-import { Scroll, useScroll } from "@react-three/drei";
-import { useFrame } from "@react-three/fiber";
-import { useState, useRef } from "react";
-
-const Section = (props) => {
-	return (
-		<section
-			className={`h-screen flex flex-col justify-center p-10 rounded-t-full bg-red-500 border ${
-				props.right ? "ml-auto" : "mr-auto"
-			}`}
-			style={{
-				opacity: props.opacity,
-			}}
-		>
-			<div className="w-1/2 flex items-center justify-center">
-				<div className="max-w-sm w-full">
-					<div className="  rounded-lg px-8 py-12">{props.children}</div>
-				</div>
-			</div>
-		</section>
-	);
-};
+import { Scroll } from "@react-three/drei";
 
 export const Overlay = () => {
-	const scroll = useScroll();
-	const [opacityFirstSection, setOpacityFirstSection] = useState(false);
-	const [opacitySecondSection, setOpacitySecondSection] = useState(1);
-	const [opacityLastSection, setOpacityLastSection] = useState(1);
-	const section = useRef();
-	useFrame(() => {
-		// setOpacityFirstSection(scroll.visible(0.8, 0, 1));
-		// console.log(scroll.range(0.8, 0, 1));
-		// console.log(opacityFirstSection);
-		console.log(Math.ceil(19 * scroll.offset));
-		// if (scroll.offset > 0.8 && scroll.offset < 0.9) {
-		// 	setOpacityFirstSection(true);
-		// }
-	});
-
 	return (
 		<Scroll html>
 			<div class="">

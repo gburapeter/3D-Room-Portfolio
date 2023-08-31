@@ -2,26 +2,20 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import studio from "@theatre/studio";
 import extension from "@theatre/r3f/dist/extension";
-import {
-	SheetProvider,
-	PerspectiveCamera,
-	useCurrentSheet,
-} from "@theatre/r3f";
+import { SheetProvider, PerspectiveCamera } from "@theatre/r3f";
 import { getProject, onChange } from "@theatre/core";
 import Experience from "./components/Experience";
-import { Environment, Loader, ScrollControls, Html } from "@react-three/drei";
-import { Leva } from "leva";
+import { Loader, ScrollControls, Html } from "@react-three/drei";
+
 import demoProjectState from "./textstate.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
 
-import ShookOnes from "../src/audio.mp3";
-import Promoe from "../src/song2.mp3";
 import Redbone from "../src/audio3.mp3";
 
 import { useState } from "react";
 import { useRef } from "react";
-import { Overlay } from "./components/Overlay";
+
 if (import.meta.env.DEV) {
 	studio.initialize();
 	studio.extend(extension);
