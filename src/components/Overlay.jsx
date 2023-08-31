@@ -19,7 +19,7 @@ export const Overlay = () => {
 											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
 													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
 														<time datetime="2023-08-05T00:00:00.000Z">
 															2018-2022
 														</time>
@@ -39,7 +39,7 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	BSc in Computer Science
@@ -47,7 +47,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															Main modules:Mathematical analysis,
 															Discrete mathematics, Linear
 															Algebra, Stochastic processes,
@@ -65,7 +65,7 @@ export const Overlay = () => {
 											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
 													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
 														<time datetime="2021-08-07T15:32:14.000Z">
 															October, 2021 - December 2021
 														</time>
@@ -84,14 +84,14 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Salesforce Developer Intern
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															Developing flow and transaction
 															statements in Apex, Lightning and
 															Aura Web components made in
@@ -107,7 +107,7 @@ export const Overlay = () => {
 											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
 													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
 														<time datetime="2021-05-02T00:00:00.000Z">
 															February, 2022 - September, 2022
 														</time>
@@ -126,7 +126,7 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/multi-author"
 																>
 																	Full-stack developer (PHP,
@@ -134,7 +134,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															The first project consisted of
 															developing a fullstack admin panel
 															in Laravel. Frontend has been a mix
@@ -143,8 +143,8 @@ export const Overlay = () => {
 															Tailwind CSS. Database:
 															MySQL/MariaDB. Main focuses: Rest
 															API creation, db transactions,
-															query optimization, UI
-															implementation etc.
+															query optimization, unit/feature
+															tests, UI implementation etc.
 															<br></br>Furthermore took part in
 															mobile development (React Native)
 															and had several Wordpress tasks:
@@ -161,7 +161,7 @@ export const Overlay = () => {
 											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
 													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
 														<time datetime="2021-01-12T00:00:00.000Z">
 															September, 2022 - July, 2023
 														</time>
@@ -180,7 +180,7 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Full-stack developer
@@ -188,7 +188,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															Development of a web application
 															for a leading danish media group.
 															Laravel backend with a MariaDB
@@ -226,21 +226,21 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Tutored Research Project
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															Included study of modular
 															arithmetics, RSA, elliptic curve
 															cryptography. Implementation of
 															different signatures in Python.
 														</div>
 													</div>
-													<div class="text-base font-medium leading-6">
+													<div class="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
 															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
@@ -248,6 +248,16 @@ export const Overlay = () => {
 															href="./tutored_research.pdf"
 														>
 															Read more →
+														</a>
+													</div>
+													<div class="text-base font-medium italic leading-6">
+														<a
+															target="_blank"
+															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															aria-label='Read "Deriving the OLS Estimator"'
+															href="https://github.com/gburapeter/LinkableRingSignatures/blob/master/PythonApplication2/LinkableRingSignature.py"
+														>
+															Github →
 														</a>
 													</div>
 												</div>
@@ -272,14 +282,14 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Thesis work
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															I really liked the whole new idea
 															of having React and Laravel in a
 															monolith application. Inertia
@@ -293,7 +303,7 @@ export const Overlay = () => {
 															different products.
 														</div>
 													</div>
-													<div class="text-base font-medium leading-6">
+													<div class="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
 															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
@@ -301,6 +311,16 @@ export const Overlay = () => {
 															href="./thesisgbp.pdf"
 														>
 															Read more →
+														</a>
+													</div>
+													<div class="text-base font-medium italic leading-6">
+														<a
+															target="_blank"
+															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															aria-label='Read "Deriving the OLS Estimator"'
+															href="https://github.com/gburapeter/WebshopThesisGBP"
+														>
+															Github →
 														</a>
 													</div>
 												</div>
@@ -323,14 +343,14 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/multi-author"
 																>
 																	FILLTHIS
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															fillthis
 														</div>
 													</div>
@@ -354,14 +374,14 @@ export const Overlay = () => {
 															</h2>
 															<div class="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	3D web development
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+														<div class="prose max-w-none text-slate-200 ">
 															Hobbywise I spent time with
 															developing websites containing 3D
 															models. Started with native
@@ -370,6 +390,16 @@ export const Overlay = () => {
 															Theatre.js for animations/camera
 															work.
 														</div>
+													</div>
+													<div class="text-base font-medium italic leading-6">
+														<a
+															target="_blank"
+															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															aria-label='Read "Deriving the OLS Estimator"'
+															href="https://github.com/gburapeter/room-portfolio-gbp-v2"
+														>
+															Github →
+														</a>
 													</div>
 												</div>
 											</div>
@@ -428,7 +458,7 @@ export const Overlay = () => {
 					<h1 className="font-semibold font-serif text-2xl">
 						🤙 Call me maybe?
 					</h1>
-					<p className="text-gray-500">
+					<p className="text-slate-200">
 						I'm very expensive but you won't regret it
 					</p>
 					<p className="mt-6 p-3 bg-slate-200 rounded-lg">
