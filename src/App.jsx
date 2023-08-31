@@ -39,6 +39,7 @@ const demoSheet = getProject("Demo Project", { state: demoProjectState }).sheet(
 export default function App(props) {
 	const [play, { stop }] = useSound(Redbone, {
 		interrupt: true,
+		volume: 0.3,
 	});
 	const [played, setPlayed] = useState(false);
 	const hasPlayedChanged = useRef(false);
