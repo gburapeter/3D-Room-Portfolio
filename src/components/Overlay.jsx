@@ -292,7 +292,7 @@ export const Overlay = () => {
 														<div class="prose max-w-none text-slate-200 ">
 															I really liked the whole new idea
 															of having React and Laravel in a
-															monolith application. Inertia
+															monolith application. Inertia.js
 															proved to be the perfect bridge for
 															this. Throughout 5 months I single
 															handedly developed a fully
