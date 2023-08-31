@@ -11,7 +11,7 @@ import { getProject, onChange } from "@theatre/core";
 import Experience from "./components/Experience";
 import { Environment, Loader, ScrollControls, Html } from "@react-three/drei";
 import { Leva } from "leva";
-import demoProjectState from "./guccistate.json";
+import demoProjectState from "./textstate.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
 
@@ -29,8 +29,9 @@ if (import.meta.env.DEV) {
 
 // our Theatre.js project sheet, we'll use this later
 
-const demoSheet = getProject("Demo Project").sheet("Demo Sheet");
-
+const demoSheet = getProject("Demo Project", { state: demoProjectState }).sheet(
+	"Demo Sheet"
+);
 // demoSheet.sequence.attachAudio({ source: "./audio.mp3" }).then(() => {
 // 	console.log("Audio loaded!");
 // });
