@@ -14,6 +14,7 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 	const sheet = useCurrentSheet();
 	const scroll = useScroll();
 	const [show, setShow] = useState(false);
+
 	// our callback will run on every animation frame
 	useFrame(() => {
 		// the length of our sequence
