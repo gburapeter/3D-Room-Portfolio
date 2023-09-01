@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { Html, useProgress } from "@react-three/drei";
 import { useCurrentSheet } from "@theatre/r3f";
 import { useFrame } from "@react-three/fiber";
-import { PleaseWork } from "../Roomscaledgogo-v1";
+import { RoomPortfolio } from "../RoomPortfolio";
 import { val } from "@theatre/core";
 import { Overlay } from "./Overlay";
 import "../App.css";
@@ -46,7 +46,7 @@ export default function Experience({ stopFunction }) {
 					null
 				}
 			>
-				{<PleaseWork />}
+				<RoomPortfolio />
 			</Suspense>
 			<Overlay />
 			{/* </Center> */}

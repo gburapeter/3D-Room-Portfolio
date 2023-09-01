@@ -9,7 +9,7 @@ import { useGLTF } from "@react-three/drei";
 import { MeshStandardMaterial } from "three";
 import { editable as e } from "@theatre/r3f";
 
-export function PleaseWork(props) {
+export function RoomPortfolio(props) {
 	const { nodes, materials } = useGLTF("/roomscaledgogo-v1-transformed.glb");
 	const textureGlassMaterial = new MeshStandardMaterial({
 		transparent: true,
