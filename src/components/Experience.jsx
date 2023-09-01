@@ -13,7 +13,7 @@ import Content from "../Content";
 export default function Experience({ stopFunction, setPages, setEnabled }) {
 	const sheet = useCurrentSheet();
 	const scroll = useScroll();
-
+	const [show, setShow] = useState(false);
 	// our callback will run on every animation frame
 	useFrame(() => {
 		// the length of our sequence
@@ -23,10 +23,15 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 		sheet.sequence.position = scroll.offset * sequenceLength;
 	});
 
+	const setStart = () => {
+		setEnabled(true);
+		setPages(19);
+		setShow(true);
+	};
 	return (
 		<>
 			<Html center>
-				<Content setPages={setPages} setEnabled={setEnabled} />
+				<Content setStart={setStart} show={show} />
 			</Html>
 
 			<ambientLight color="#FFDAB9" intensity={2} />

@@ -1,15 +1,7 @@
 import { useEffect, useState } from "react";
 import "./content.css";
 import "./App.css";
-export default function Content({ setPages, setEnabled }) {
-	const [show, setShow] = useState(false);
-
-	const setStart = () => {
-		// setPages(19);
-		// setEnabled(true);
-		setShow(true);
-	};
-
+export default function Content({ show, setStart }) {
 	return (
 		<div
 			className={`container transition duration-1000 ease-in-out
