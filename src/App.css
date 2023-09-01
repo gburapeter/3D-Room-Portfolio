@@ -54,9 +54,6 @@
 }
 
 .blurableScreen {
-	height: calc(110vh / 1.001) !important;
-	width: calc(110vw / 1.001) !important;
-	/* margin-right: 5vw !important;
-	margin-bottom: 2vh !important; */
-	/* padding: 10vh !important; */
+	height: calc(100vh) !important;
+	width: calc(100vw) !important;
 }

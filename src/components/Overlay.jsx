@@ -3,43 +3,43 @@ import { Scroll } from "@react-three/drei";
 export const Overlay = () => {
 	return (
 		<Scroll html>
-			<div class="">
+			<div className="">
 				<section className=" ">
-					<div class=" left z-10 ">
-						<main class="rounded-tr-full first-section section mb-auto">
-							<div class="pt-64 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
-								<div class="space-y-2 pb-8 pt-6 md:space-y-5">
-									<h1 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+					<div className=" left z-10 ">
+						<main className="rounded-tr-full first-section section mb-auto">
+							<div className="pt-64 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
+								<div className="space-y-2 pb-8 pt-6 md:space-y-5">
+									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
 										Education & Work
 									</h1>
 								</div>
-								<ul class="divide-y divide-gray-200 dark:divide-gray-700">
-									<li class="py-12">
+								<ul className="divide-y divide-gray-200 dark:divide-gray-700">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
-													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
-														<time datetime="2023-08-05T00:00:00.000Z">
+													<dt className="sr-only">Published on</dt>
+													<dd className="text-base font-medium italic leading-6 text-slate-200 ">
+														<time dateTime="2023-08-05T00:00:00.000Z">
 															2018-2022
 														</time>
 													</dd>
 												</dl>
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
 																>
 																	Pazmany Peter Catholic
 																	University
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	BSc in Computer Science
@@ -47,7 +47,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															Main modules:Mathematical analysis,
 															Discrete mathematics, Linear
 															Algebra, Stochastic processes,
@@ -60,38 +60,38 @@ export const Overlay = () => {
 											</div>
 										</article>
 									</li>
-									<li class="py-12">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
-													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
-														<time datetime="2021-08-07T15:32:14.000Z">
+													<dt className="sr-only">Published on</dt>
+													<dd className="text-base font-medium italic leading-6 text-slate-200 ">
+														<time dateTime="2021-08-07T15:32:14.000Z">
 															October, 2021 - December 2021
 														</time>
 													</dd>
 												</dl>
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/new-features-in-v1"
 																>
 																	Deloitte
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Salesforce Developer Intern
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															Developing flow and transaction
 															statements in Apex, Lightning and
 															Aura Web components made in
@@ -102,31 +102,31 @@ export const Overlay = () => {
 											</div>
 										</article>
 									</li>
-									<li class="py-12">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
-													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
-														<time datetime="2021-05-02T00:00:00.000Z">
+													<dt className="sr-only">Published on</dt>
+													<dd className="text-base font-medium italic leading-6 text-slate-200 ">
+														<time dateTime="2021-05-02T00:00:00.000Z">
 															February, 2022 - September, 2022
 														</time>
 													</dd>
 												</dl>
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/nested-route/introducing-multi-part-posts-with-nested-routing"
 																>
 																	Riptos ApS (Odense, Denmark)
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/multi-author"
 																>
 																	Full-stack developer (PHP,
@@ -134,7 +134,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															The first project consisted of
 															developing a fullstack admin panel
 															in Laravel. Frontend has been a mix
@@ -156,31 +156,31 @@ export const Overlay = () => {
 											</div>
 										</article>
 									</li>
-									<li class="py-12">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
 												<dl>
-													<dt class="sr-only">Published on</dt>
-													<dd class="text-base font-medium italic leading-6 text-slate-200 ">
-														<time datetime="2021-01-12T00:00:00.000Z">
+													<dt className="sr-only">Published on</dt>
+													<dd className="text-base font-medium italic leading-6 text-slate-200 ">
+														<time dateTime="2021-01-12T00:00:00.000Z">
 															September, 2022 - July, 2023
 														</time>
 													</dd>
 												</dl>
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/introducing-tailwind-nextjs-starter-blog"
 																>
 																	Meras ApS
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Full-stack developer
@@ -188,7 +188,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															Development of a web application
 															for a leading danish media group.
 															Laravel backend with a MariaDB
@@ -202,58 +202,58 @@ export const Overlay = () => {
 									</li>
 								</ul>
 							</div>
-							<div class="pt-64 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
-								<div class="space-y-2 pb-8 pt-6 md:space-y-5">
-									<h1 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+							<div className="pt-64 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
+								<div className="space-y-2 pb-8 pt-6 md:space-y-5">
+									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
 										Hobby & Projects
 									</h1>
 								</div>
-								<ul class="divide-y divide-gray-200 dark:divide-gray-700">
-									<li class="py-12">
+								<ul className="divide-y divide-gray-200 dark:divide-gray-700">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
 																>
 																	Monero: Cryptography for
 																	privacy purposes
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Tutored Research Project
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															Included study of modular
 															arithmetics, RSA, elliptic curve
 															cryptography. Implementation of
 															different signatures in Python.
 														</div>
 													</div>
-													<div class="text-base font-medium italic leading-6">
+													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./tutored_research.pdf"
 														>
 															Read more →
 														</a>
 													</div>
-													<div class="text-base font-medium italic leading-6">
+													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/LinkableRingSignatures/blob/master/PythonApplication2/LinkableRingSignature.py"
 														>
@@ -264,15 +264,15 @@ export const Overlay = () => {
 											</div>
 										</article>
 									</li>
-									<li class="py-12">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/new-features-in-v1"
 																>
 																	Development of a
@@ -280,16 +280,16 @@ export const Overlay = () => {
 																	webshop application
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	Thesis work
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															I really liked the whole new idea
 															of having React and Laravel in a
 															monolith application. Inertia.js
@@ -303,20 +303,20 @@ export const Overlay = () => {
 															different products.
 														</div>
 													</div>
-													<div class="text-base font-medium italic leading-6">
+													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./thesisgbp.pdf"
 														>
 															Read more →
 														</a>
 													</div>
-													<div class="text-base font-medium italic leading-6">
+													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/WebshopThesisGBP"
 														>
@@ -327,30 +327,30 @@ export const Overlay = () => {
 											</div>
 										</article>
 									</li>
-									<li class="py-12">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/nested-route/introducing-multi-part-posts-with-nested-routing"
 																>
 																	React project
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/multi-author"
 																>
 																	FILLTHIS
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															fillthis
 														</div>
 													</div>
@@ -358,30 +358,30 @@ export const Overlay = () => {
 											</div>
 										</article>
 									</li>
-									<li class="py-12">
+									<li className="py-12">
 										<article>
-											<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-												<div class="space-y-5 xl:col-span-3">
-													<div class="space-y-6">
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
 														<div>
-															<h2 class="text-2xl font-bold leading-8 tracking-tight">
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	class="text-gray-900 dark:text-gray-100"
+																	className="text-gray-900 dark:text-gray-100"
 																	href="/blog/introducing-tailwind-nextjs-starter-blog"
 																>
 																	Three.js - React Three Fiber
 																</a>
 															</h2>
-															<div class="flex flex-wrap">
+															<div className="flex flex-wrap">
 																<a
-																	class="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 																	href="/tags/next-js"
 																>
 																	3D web development
 																</a>
 															</div>
 														</div>
-														<div class="prose max-w-none text-slate-200 ">
+														<div className="prose max-w-none text-slate-200 ">
 															Hobbywise I spent time with
 															developing websites containing 3D
 															models. Started with native
@@ -391,10 +391,10 @@ export const Overlay = () => {
 															work and Blender for modelling.
 														</div>
 													</div>
-													<div class="text-base font-medium italic leading-6">
+													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/room-portfolio-gbp-v2"
 														>
@@ -411,42 +411,42 @@ export const Overlay = () => {
 					</div>
 				</section>
 				{/* <Section right opacity={opacitySecondSection}>
-					<div class="progress-wrapper progress-bar-wrapper-left">
-						<div class="progress-bar"></div>
+					<div className="progress-wrapper progress-bar-wrapper-left">
+						<div className="progress-bar"></div>
 					</div>
 
-					<div class="section-intro-wrapper">
-						<h1 class="section-title">
-							<span class="section-title-text">About Me</span>
-							<div class="section-title-decoration styleOne"></div>
-							<div class="section-title-decoration styleTwo"></div>
-							<div class="section-title-decoration styleThree"></div>
+					<div className="section-intro-wrapper">
+						<h1 className="section-title">
+							<span className="section-title-text">About Me</span>
+							<div className="section-title-decoration styleOne"></div>
+							<div className="section-title-decoration styleTwo"></div>
+							<div className="section-title-decoration styleThree"></div>
 						</h1>
-						<span class="section-number">01</span>
+						<span className="section-number">01</span>
 					</div>
 
-					<div class="section-detail-wrapper">
-						<h3 class="section-heading">Hello!</h3>
-						<p class="section-text">
+					<div className="section-detail-wrapper">
+						<h3 className="section-heading">Hello!</h3>
+						<p className="section-text">
 							Hi there 👋! I'm a third-year digital media student from UK
 							currently studying in Germany. My dream is to work for
 							Disney or Pixar one day.
 						</p>
-						<p class="section-text">
+						<p className="section-text">
 							{" "}
 							I love creating art and playing with my cats! I also like
 							drinking bubble tea and going for hikes! Totally hippie lol
 							✌️. Welcome to my portfolio!
 						</p>
-						<h3 class="section-heading">Lorem Ipsum</h3>
-						<p class="section-text">
+						<h3 className="section-heading">Lorem Ipsum</h3>
+						<p className="section-text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Hic expedita qui quae officiis, magni velit iste repellat
 							consequuntur temporibus. Quasi atque officia iste beatae
 							rerum, harum itaque accusamus. At, natus?
 						</p>{" "}
-						<h3 class="section-heading">Lorem Ipsum</h3>
-						<p class="section-text">
+						<h3 className="section-heading">Lorem Ipsum</h3>
+						<p className="section-text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Hic expedita qui quae officiis, magni velit iste repellat
 							consequuntur temporibus. Quasi atque officia iste beatae

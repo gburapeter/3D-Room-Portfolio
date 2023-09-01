@@ -16,12 +16,10 @@ export function RoomPortfolio(props) {
 		color: "#a7c7cb",
 		opacity: 0.8,
 	});
-	const [show, setShow] = useState(false);
+	
 	return (
 		<>
-			<Html center>
-				<div class="blurableScreen backdrop-blur-md bg-green-200/30"></div>
-			</Html>
+		
 			<group {...props} dispose={null}>
 				<e.group name="Scene" theatreKey="Scene">
 					<group name="Plane015" position={[0, 0.1, 0]}>

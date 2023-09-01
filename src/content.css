@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap");
+
+.container {
+	font-size: 16px;
+	font-family: "Newsreader", serif;
+}
+
+.personalName {
+	position: absolute;
+	font-size: 2.5vw;
+	top: 5vw;
+	left: 3vw;
+}
+
+.role {
+	font-size: max(2vw, 16px);
+}
+
+h2 {
+	padding: 0;
+	margin: 0 0 0.05em 0;
+	font-weight: 400;
+	font-size: min(8vw, 14em);
+	line-height: 0.85em;
+	font-family: "Abril Fatface", cursive;
+}
+.credits {
+	/* position: absolute;
+	bottom: 5vw;
+	left: 37vw;
+	text-align: center; */
+	padding-top: 80vh;
+	padding-right: 5vw;
+	font-size: 2vw;
+
+	display: flex;
+	justify-content: center;
+}
+
+.links {
+	position: absolute;
+	top: 5vw;
+	right: 3vw;
+	width: 35ch;
+	max-width: 40%;
+	line-height: 1em;
+	letter-spacing: -0.01em;
+	text-align: center;
+	font-size: max(1.5vw, 16px);
+}
+
+.tutorial {
+	position: absolute;
+	font-size: max(1.5vw, 16px);
+	top: 7vw;
+	right: 7vw;
+}
