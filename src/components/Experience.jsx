@@ -39,14 +39,7 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 			<directionalLight color="#FFD700" intensity={1} position={[1, 1, 0]} />
 			<Environment preset="city" />
 			{/* )} */}
-			<Suspense
-				fallback={
-					// <Html center>
-					// 	<PacmanLoader size={120} color="black" />
-					// </Html>
-					null
-				}
-			>
+			<Suspense fallback={null}>
 				<RoomPortfolio />
 			</Suspense>
 			<Overlay />
