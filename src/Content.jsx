@@ -48,7 +48,7 @@ export default function Content({ show, setStart }) {
 						<a target="_blank" href="https://github.com/gburapeter">
 							<img
 								className="w-12 h-12 transition duration-200 ease-in-out hover:scale-110"
-								src="src/assets/github-mark.png"
+								src="./src/assets/github-mark.png"
 							/>
 						</a>
 						<a
@@ -57,7 +57,7 @@ export default function Content({ show, setStart }) {
 						>
 							<img
 								className="w-12 h-12 transition duration-200 ease-in-out hover:scale-110"
-								src="src/assets/linkedin.png"
+								src="./src/assets/linkedin.png"
 							/>
 						</a>
 					</div>
