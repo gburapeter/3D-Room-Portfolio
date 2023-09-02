@@ -54,6 +54,6 @@ h2 {
 .tutorial {
 	position: absolute;
 	font-size: max(1.5vw, 16px);
-	top: 7vw;
-	right: 7vw;
+	top: 5vw;
+	right: 9vw;
 }

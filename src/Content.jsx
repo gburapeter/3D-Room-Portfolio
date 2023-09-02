@@ -28,9 +28,9 @@ export default function Content({ show, setStart }) {
 					</div>
 
 					<div className="tutorial">
-						<span className="italic font-bold">
-							Hint: press the button
-						</span>
+						<span className="italic font-bold">Hint: </span>
+						<br />
+						press the button
 						<br />
 						and slowly start scrolling
 					</div>
