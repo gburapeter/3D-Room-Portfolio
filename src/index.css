@@ -10,11 +10,23 @@ body,
 	/* pointer-events: none; */
 	height: 100vh;
 	overflow: hidden;
-	background: rgb(220, 212, 241);
+	background: hsla(18, 76%, 85%, 1);
+
 	background: linear-gradient(
-		0deg,
-		rgba(28, 152, 247, 1) 0%,
-		rgba(142, 203, 250, 1) 50%,
-		rgba(220, 212, 241, 1) 100%
+		90deg,
+		hsla(18, 76%, 85%, 1) 0%,
+		hsla(203, 69%, 84%, 1) 100%
+	);
+
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(18, 76%, 85%, 1) 0%,
+		hsla(203, 69%, 84%, 1) 100%
+	);
+
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(18, 76%, 85%, 1) 0%,
+		hsla(203, 69%, 84%, 1) 100%
 	);
 }

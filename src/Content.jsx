@@ -43,21 +43,24 @@ export default function Content({ show, setStart }) {
 							Start journey
 						</button>
 					</div>
-					{/* <div className="links">
-						<br />
-						<a target="_blank" href="">
-							LinkedIn
+
+					<div className="socials flex flex-row gap-3 ">
+						<a target="_blank" href="https://github.com/gburapeter">
+							<img
+								className="w-12 h-12 transition duration-200 ease-in-out hover:scale-110"
+								src="src/assets/github-mark.png"
+							/>
 						</a>
-						<br />
-						<a target="_blank" href="">
-							Github
+						<a
+							target="_blank"
+							href="https://www.linkedin.com/in/p%C3%A9ter-ghiurutan-bura-2765a41a2/"
+						>
+							<img
+								className="w-12 h-12 transition duration-200 ease-in-out hover:scale-110"
+								src="src/assets/linkedin.png"
+							/>
 						</a>
-						<br />
-						<a target="_blank" href="">
-							Favorite song{" "}
-						</a>
-						<br />
-					</div> */}
+					</div>
 				</div>
 			)}
 		</div>

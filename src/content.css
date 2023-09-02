@@ -14,6 +14,13 @@
 	left: 3vw;
 }
 
+.socials {
+	position: absolute;
+
+	bottom: 5vw;
+	right: 3vw;
+}
+
 .role {
 	font-size: max(2vw, 16px);
 }
