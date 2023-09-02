@@ -39,7 +39,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/next-js"
 																>
 																	BSc in Computer Science
@@ -84,7 +84,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/next-js"
 																>
 																	Salesforce Developer Intern
@@ -93,9 +93,16 @@ export const Overlay = () => {
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
 															Developing flow and transaction
-															statements in Apex, Lightning and
-															Aura Web components made in
-															Javascript, SOQL DB queries
+															statements in{" "}
+															<span className="text-blue-300 font-bold">
+																Apex
+															</span>
+															, Lightning and Aura Web components
+															made in
+															<span className="text-blue-300 font-bold">
+																Javascript
+															</span>
+															, SOQL DB queries
 														</div>
 													</div>
 												</div>
@@ -126,7 +133,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/multi-author"
 																>
 																	Full-stack developer (PHP,
@@ -135,21 +142,45 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
-															The first project consisted of
+															Being part of a digital agency, the
+															first project consisted of
 															developing a fullstack admin panel
-															in Laravel. Frontend has been a mix
-															of Laravel Livewire and classic
-															blade syntax mixed with some
-															Tailwind CSS. Database:
-															MySQL/MariaDB. Main focuses: Rest
-															API creation, db transactions,
-															query optimization, unit/feature
-															tests, UI implementation etc.
+															in{" "}
+															<span className="text-blue-300 font-bold">
+																Laravel
+															</span>
+															. Frontend has been a mix of{" "}
+															<span className="text-blue-300 font-bold">
+																Laravel Livewire, Alpine.js
+															</span>{" "}
+															and classic blade syntax mixed with
+															some{" "}
+															<span className="text-blue-300 font-bold">
+																Tailwind CSS
+															</span>
+															. Database:{" "}
+															<span className="text-blue-300 font-bold">
+																MySQL/MariaDB
+															</span>
+															. Main focuses: Rest API, db
+															transactions, query optimization,
+															unit/feature tests, UI
+															implementation etc.
 															<br></br>Furthermore took part in
-															mobile development (React Native)
-															and had several Wordpress tasks:
-															fixing bugs, new features (digital
-															contract signature)
+															mobile development (
+															<span className="text-blue-300 font-bold">
+																React Native
+															</span>
+															) and in a{" "}
+															<span className="text-blue-300 font-bold">
+																Wordpress
+															</span>{" "}
+															project, naming tasks as: fixing
+															bugs, new features (digital
+															contract signature) <br />
+															<span className="text-blue-300 font-bold">
+																Docker + AWS + CI/CD
+															</span>
 														</div>
 													</div>
 												</div>
@@ -180,7 +211,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/next-js"
 																>
 																	Full-stack developer
@@ -190,10 +221,31 @@ export const Overlay = () => {
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
 															Development of a web application
-															for a leading danish media group.
-															Laravel backend with a MariaDB
-															behind it, and Livewire client-side
-															powered by Tailwind
+															for a leading danish media group.{" "}
+															<span className="text-blue-300 font-bold">
+																Laravel
+															</span>{" "}
+															backend with{" "}
+															<span className="text-blue-300 font-bold">
+																MariaDB
+															</span>{" "}
+															behind it, and{" "}
+															<span className="text-blue-300 font-bold">
+																Livewire+Alpine.js
+															</span>{" "}
+															client-side powered by{" "}
+															<span className="text-blue-300 font-bold">
+																Tailwind
+															</span>
+															.<br />
+															<span className="text-blue-300 font-bold">
+																PEST PHP tests + Livewire tests
+																coverage
+															</span>
+															.<br />
+															<span className="text-blue-300 font-bold">
+																Docker + AWS + CI/CD
+															</span>
 														</div>
 													</div>
 												</div>
@@ -202,7 +254,7 @@ export const Overlay = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="pt-64 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
+							<div className="pt-40 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
 								<div className="space-y-2 pb-8 pt-6 md:space-y-5">
 									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
 										Hobby & Projects
@@ -226,7 +278,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/next-js"
 																>
 																	Tutored Research Project
@@ -282,7 +334,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/next-js"
 																>
 																	Thesis work
@@ -343,7 +395,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/multi-author"
 																>
 																	FILLTHIS
@@ -374,7 +426,7 @@ export const Overlay = () => {
 															</h2>
 															<div className="flex flex-wrap">
 																<a
-																	className="mr-3 text-sm font-medium italic uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
 																	href="/tags/next-js"
 																>
 																	3D web development
