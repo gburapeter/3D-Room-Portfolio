@@ -4,11 +4,10 @@ import { Suspense, useState } from "react";
 import { Html, useProgress } from "@react-three/drei";
 import { useCurrentSheet } from "@theatre/r3f";
 import { useFrame } from "@react-three/fiber";
-import { RoomPortfolio } from "../RoomPortfolio";
+import { RoomPortfolio } from "./Models/RoomPortfolio";
 import { val } from "@theatre/core";
-import { Overlay } from "./Overlay";
-import "../App.css";
-import Content from "../Content";
+import { Overlay } from "./TextContent/Overlay";
+import Content from "./TextContent/Content";
 
 export default function Experience({ stopFunction, setPages, setEnabled }) {
 	const sheet = useCurrentSheet();

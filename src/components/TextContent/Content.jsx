@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./content.css";
-import "./App.css";
+import "./style.css";
 export default function Content({ show, setStart }) {
 	return (
 		<div
