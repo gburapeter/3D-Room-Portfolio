@@ -8,7 +8,6 @@ export default function Content({ show, setStart }) {
 					
 					blurableScreen  ${!show ? "backdrop-blur-md" : "backdrop-blur-none"}`}
 		>
-			{/* Personal info */}
 			{!show && (
 				<div
 					className={`transition duration-1000 ease-in-out
