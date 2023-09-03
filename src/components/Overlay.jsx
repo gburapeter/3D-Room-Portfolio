@@ -343,13 +343,21 @@ export const Overlay = () => {
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
 															I really liked the whole new idea
-															of having React and Laravel in a
-															monolith application. Inertia.js
+															of having{" "}
+															<span className="text-blue-300 font-bold">
+																React and Laravel
+															</span>{" "}
+															in a monolith application.{" "}
+															<span className="text-blue-300 font-bold">
+																Inertia.js
+															</span>{" "}
 															proved to be the perfect bridge for
 															this. Throughout 5 months I single
 															handedly developed a fully
-															functional webshop application
-															(React+Laravel+Inertia+MariaDB)
+															functional webshop application{" "}
+															<span className="text-blue-300 font-bold">
+																(React+Laravel+Inertia+MariaDB)
+															</span>{" "}
 															where users could browse, select
 															and finalize a payment( Paypal) for
 															different products.
@@ -371,6 +379,65 @@ export const Overlay = () => {
 															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/WebshopThesisGBP"
+														>
+															Github →
+														</a>
+													</div>
+												</div>
+											</div>
+										</article>
+									</li>
+									<li className="py-12">
+										<article>
+											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+												<div className="space-y-5 xl:col-span-3">
+													<div className="space-y-6">
+														<div>
+															<h2 className="text-2xl font-bold leading-8 tracking-tight">
+																<a
+																	className="text-gray-900 dark:text-gray-100"
+																	href="/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
+																>
+																	Progressive Web Applications
+																</a>
+															</h2>
+															<div className="flex flex-wrap">
+																<a
+																	className="mr-3 text-sm italic uppercase text-blue-300 font-bold"
+																	href="/tags/next-js"
+																>
+																	Guided Individual Study
+																</a>
+															</div>
+														</div>
+														<div className="prose max-w-none text-slate-200 ">
+															Converting the university's
+															homepage to a{" "}
+															<span className="text-blue-300 font-bold">
+																PWA
+															</span>{" "}
+															in React. Usage of caching
+															strategies, push notis, in the end
+															resulting in a desktop app.
+															(Workbox)
+														</div>
+													</div>
+													<div className="text-base font-medium italic leading-6">
+														<a
+															target="_blank"
+															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															aria-label='Read "Deriving the OLS Estimator"'
+															href="./pwa.pdf"
+														>
+															Read more →
+														</a>
+													</div>
+													<div className="text-base font-medium italic leading-6">
+														<a
+															target="_blank"
+															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															aria-label='Read "Deriving the OLS Estimator"'
+															href="https://github.com/gburapeter/react-pwa"
 														>
 															Github →
 														</a>
@@ -436,11 +503,23 @@ export const Overlay = () => {
 														<div className="prose max-w-none text-slate-200 ">
 															Hobbywise I spent time with
 															developing websites containing 3D
-															models. Started with native
-															Three.js - slowly shifting towards
-															R3F. Used libraries as: GSAP,
-															Theatre.js for animations/camera
-															work and Blender for modelling.
+															models. Started with native{" "}
+															<span className="text-blue-300 font-bold">
+																Three.js
+															</span>{" "}
+															- slowly shifting towards{" "}
+															<span className="text-blue-300 font-bold">
+																R3F
+															</span>
+															. Used libraries as:{" "}
+															<span className="text-blue-300 font-bold">
+																GSAP, Theatre.js
+															</span>{" "}
+															for animations/camera work and{" "}
+															<span className="text-blue-300 font-bold">
+																Blender
+															</span>{" "}
+															for modelling.
 														</div>
 													</div>
 													<div className="text-base font-medium italic leading-6">
