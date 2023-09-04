@@ -4,10 +4,10 @@ import { Suspense, useState } from "react";
 import { Html, useProgress } from "@react-three/drei";
 import { useCurrentSheet } from "@theatre/r3f";
 import { useFrame } from "@react-three/fiber";
-import { RoomPortfolio } from "./Models/RoomPortfolio";
 import { val } from "@theatre/core";
 import { Overlay } from "./TextContent/Overlay";
 import Content from "./TextContent/Content";
+import { NewRoom } from "./Models/Roomscaledsmall-v1";
 
 export default function Experience({ stopFunction, setPages, setEnabled }) {
 	const sheet = useCurrentSheet();
@@ -39,7 +39,7 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 			<Environment preset="city" />
 			{/* )} */}
 			<Suspense fallback={null}>
-				<RoomPortfolio />
+				<NewRoom />
 			</Suspense>
 			<Overlay />
 			{/* </Center> */}
