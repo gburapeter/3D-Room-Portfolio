@@ -31,7 +31,7 @@ export default function Content({ show, setStart }) {
 						<br />
 						press the button
 						<br />
-						and slowly start scrolling
+						and keep scrolling slowly
 					</div>
 
 					<div className="credits">
