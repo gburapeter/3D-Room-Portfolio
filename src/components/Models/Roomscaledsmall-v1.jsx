@@ -11,6 +11,7 @@ import { editable as e } from "@theatre/r3f";
 export function NewRoom(props) {
 	const { nodes, materials } = useGLTF("/roomscaledsmall-v1-transformed.glb");
 
+	// texture
 	const textureGlassMaterial = new MeshStandardMaterial({
 		transparent: true,
 		color: "#a7c7cb",
