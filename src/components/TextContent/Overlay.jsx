@@ -7,13 +7,13 @@ export const Overlay = () => {
 				<section className=" ">
 					<div className=" left z-10 ">
 						<main className="rounded-tr-full first-section section mb-auto">
-							<div className="pt-64 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
+							<div className="pt-64 pl-5 pr-5 divide-y divide-gray-700">
 								<div className="space-y-2 pb-8 pt-6 md:space-y-5">
-									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
 										Education & Work
 									</h1>
 								</div>
-								<ul className="divide-y divide-gray-200 dark:divide-gray-700">
+								<ul className="divide-y divide-gray-700">
 									<li className="py-12">
 										<article>
 											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
@@ -30,7 +30,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
 																>
 																	Pazmany Peter Catholic
@@ -76,7 +76,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/new-features-in-v1"
 																>
 																	Deloitte
@@ -125,7 +125,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/nested-route/introducing-multi-part-posts-with-nested-routing"
 																>
 																	Riptos ApS (Odense, Denmark)
@@ -203,7 +203,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/introducing-tailwind-nextjs-starter-blog"
 																>
 																	Meras ApS
@@ -254,13 +254,13 @@ export const Overlay = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="pt-40 pl-5 pr-5 divide-y divide-gray-200 dark:divide-gray-700">
+							<div className="pt-40 pl-5 pr-5 divide-y divide-gray-700">
 								<div className="space-y-2 pb-8 pt-6 md:space-y-5">
-									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
 										Hobby & Projects
 									</h1>
 								</div>
-								<ul className="divide-y divide-gray-200 dark:divide-gray-700">
+								<ul className="divide-y divide-gray-700">
 									<li className="py-12">
 										<article>
 											<div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
@@ -269,7 +269,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
 																>
 																	Monero: Cryptography for
@@ -295,7 +295,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-white hover:text-gray-700 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./tutored_research.pdf"
 														>
@@ -305,7 +305,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-white hover:text-gray-700 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/LinkableRingSignatures/blob/master/PythonApplication2/LinkableRingSignature.py"
 														>
@@ -324,7 +324,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/new-features-in-v1"
 																>
 																	Development of a
@@ -366,7 +366,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-white hover:text-gray-700 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./thesisgbp.pdf"
 														>
@@ -376,7 +376,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-white hover:text-gray-700 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/WebshopThesisGBP"
 														>
@@ -395,7 +395,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
 																>
 																	Progressive Web Applications
@@ -425,7 +425,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-white hover:text-gray-700 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./pwa.pdf"
 														>
@@ -435,7 +435,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-white hover:text-gray-700 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/react-pwa"
 														>
@@ -454,7 +454,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/nested-route/introducing-multi-part-posts-with-nested-routing"
 																>
 																	React project
@@ -485,7 +485,7 @@ export const Overlay = () => {
 														<div>
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
-																	className="text-gray-900 dark:text-gray-100"
+																	className="text-slate-100"
 																	href="/blog/introducing-tailwind-nextjs-starter-blog"
 																>
 																	Three.js - React Three Fiber
@@ -525,7 +525,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+															className="text-white hover:text-gray-700 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/room-portfolio-gbp-v2"
 														>
