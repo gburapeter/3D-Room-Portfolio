@@ -7,7 +7,7 @@ export const Overlay = () => {
 				<section className=" ">
 					<div className=" left z-10 ">
 						<main className="rounded-tr-full first-section section mb-auto">
-							<div className="pt-80 pl-5 pr-5 divide-y divide-gray-700">
+							<div className="pt-[45vh] pl-5 pr-5 divide-y divide-gray-700">
 								<div className="space-y-2 pb-8 pt-6 md:space-y-5">
 									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
 										Education & Work
