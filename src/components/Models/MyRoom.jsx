@@ -39,11 +39,9 @@ export function MyRoom(props) {
 						geometry={nodes.Plane044.geometry}
 						material={materials.Wall}
 					/>
-					<mesh
-						name="Plane044_1"
-						geometry={nodes.Plane044_1.geometry}
-						material={materials.Floor}
-					/>
+					<mesh name="Plane044_1" geometry={nodes.Plane044_1.geometry}>
+						<meshStandardMaterial color="#8a7870" />
+					</mesh>
 					<mesh
 						name="Plane044_2"
 						geometry={nodes.Plane044_2.geometry}
@@ -992,43 +990,57 @@ export function MyRoom(props) {
 					geometry={nodes.Bed_low.geometry}
 					material={materials.Base}
 					position={[-3.282, 0.092, -2.665]}
-				/>
+				>
+					<meshStandardMaterial color="#BDCCD3" />
+				</mesh>
 				<mesh
 					name="Cover_low"
 					geometry={nodes.Cover_low.geometry}
 					material={nodes.Cover_low.material}
 					position={[-3.282, 0.092, -2.665]}
-				/>
+				>
+					<meshStandardMaterial color="#3C6A7F" />
+				</mesh>
 				<mesh
 					name="Pillow1_low"
 					geometry={nodes.Pillow1_low.geometry}
 					material={nodes.Pillow1_low.material}
 					position={[-3.282, 0.092, -2.665]}
-				/>
+				>
+					<meshStandardMaterial color="#3C6A7F" />
+				</mesh>
 				<mesh
 					name="Pillow2_low"
 					geometry={nodes.Pillow2_low.geometry}
 					material={nodes.Pillow2_low.material}
 					position={[-3.282, 0.092, -2.665]}
-				/>
+				>
+					<meshStandardMaterial color="#3C6A7F" />
+				</mesh>
 				<mesh
 					name="Structure1_low001"
 					geometry={nodes.Structure1_low001.geometry}
 					material={nodes.Structure1_low001.material}
 					position={[-3.282, 0.092, -2.665]}
-				/>
+				>
+					<meshStandardMaterial color="#A1662F" />
+				</mesh>
 				<mesh
 					name="Structure2_low"
 					geometry={nodes.Structure2_low.geometry}
 					material={nodes.Structure2_low.material}
 					position={[-3.282, 0.092, -2.665]}
-				/>
+				>
+					<meshStandardMaterial color="#A1662F" />
+				</mesh>
 				<mesh
 					name="Structure3_low"
 					geometry={nodes.Structure3_low.geometry}
 					material={nodes.Structure3_low.material}
 					position={[-3.282, 0.092, -2.665]}
-				/>
+				>
+					<meshStandardMaterial color="#A1662F" />
+				</mesh>
 				<mesh
 					name="BODY"
 					geometry={nodes.BODY.geometry}
