@@ -39,6 +39,7 @@ export function MyRoom(props) {
 						geometry={nodes.Plane044.geometry}
 						material={materials.Wall}
 					/>
+
 					<mesh name="Plane044_1" geometry={nodes.Plane044_1.geometry}>
 						<meshStandardMaterial color="#8a7870" />
 					</mesh>
