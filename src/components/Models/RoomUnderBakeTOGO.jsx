@@ -9,7 +9,7 @@ import { useGLTF, useTexture } from "@react-three/drei";
 
 export function ModelGO(props) {
 	const { nodes, materials } = useGLTF("/RoomUnderBakeTOGO-transformed.glb");
-	const bakedTexture = useTexture("/Baked.jpg");
+	const bakedTexture = useTexture("/static/Baked.jpg");
 	bakedTexture.flipY = false;
 	return (
 		<group {...props} dispose={null}>
