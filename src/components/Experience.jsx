@@ -8,6 +8,7 @@ import { val } from "@theatre/core";
 import { Overlay } from "./TextContent/Overlay";
 import Content from "./TextContent/Content";
 import { MyRoom } from "./Models/MyRoom";
+import { ModelGO } from "../../RoomUnderBakeTOGO";
 
 export default function Experience({ stopFunction, setPages, setEnabled }) {
 	const sheet = useCurrentSheet();
@@ -39,7 +40,7 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 			<Environment preset="city" />
 			{/* )} */}
 			<Suspense fallback={null}>
-				<MyRoom />
+				<ModelGO />
 			</Suspense>
 			<Overlay />
 			{/* </Center> */}
