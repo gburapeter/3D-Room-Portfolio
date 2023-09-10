@@ -7,15 +7,6 @@ import { useFrame } from "@react-three/fiber";
 import { val } from "@theatre/core";
 import { Overlay } from "./TextContent/Overlay";
 import Content from "./TextContent/Content";
-import { MyNew } from "../../New";
-import { External } from "../../External";
-import { StaticgaNG } from "../../LETSGETTHISBREAD2";
-import { Wtfisthis } from "../../LETSGETTHISBREAD";
-import { BroPls } from "../../BROPLS";
-import { Continue } from "../../CONTINUE";
-import { BakedRoom } from "../../Bakedroom";
-import { Combinedgang } from "../../Combinedgang";
-import { Vinyl } from "../../Vinyljpg";
 import { Roomv6 } from "../../Roomv6";
 
 export default function Experience({ stopFunction, setPages, setEnabled }) {
@@ -42,7 +33,7 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 				<Content setStart={setStart} show={show} />
 			</Html>
 			{/* <OrbitControls /> */}
-			<ambientLight color="#FFDAB9" intensity={0.5} />
+			{/* <ambientLight color="#FFDAB9" intensity={0.5} /> */}
 			{/* <ambientLight color="#FFDAB9" intensity={2} />
 			<directionalLight color="#FFD700" intensity={1} position={[1, 1, 0]} />
 			<Environment preset="city" /> */}
