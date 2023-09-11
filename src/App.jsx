@@ -9,7 +9,7 @@ import { Loader, ScrollControls, Html } from "@react-three/drei";
 import demoProjectState from "./textstate.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
-import Redbone from "../src/audio3.mp3";
+import DilatedPeoples from "../src/assets/dilated.mp3";
 
 // if (import.meta.env.DEV) {
 // 	studio.initialize();
@@ -21,7 +21,7 @@ const demoSheet = getProject("Demo Project", { state: demoProjectState }).sheet(
 );
 
 export default function App(props) {
-	const [play, { stop }] = useSound(Redbone, {
+	const [play, { stop }] = useSound(DilatedPeoples, {
 		interrupt: true,
 		volume: 0.3,
 	});
