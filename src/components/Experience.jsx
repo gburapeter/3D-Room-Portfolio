@@ -33,6 +33,8 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 				<Content setStart={setStart} show={show} />
 			</Html>
 
+			<ambientLight intensity={0.9} />
+			<directionalLight />
 			<Suspense fallback={null}>
 				<RoomVersion1 />
 			</Suspense>

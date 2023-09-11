@@ -28,6 +28,9 @@ export function RoomVersion1(props) {
 
 	const graffiti = useLoader(TextureLoader, "/static/graffiti.jpg");
 	graffiti.flipY = false;
+
+	const vangogh = useLoader(TextureLoader, "/static/vangogh.jpg");
+	vangogh.flipY = false;
 	const macbookKeyboard = useLoader(
 		TextureLoader,
 		"/static/macbookkeyboard.jpg"
@@ -403,7 +406,7 @@ export function RoomVersion1(props) {
 					position={[0.338, 3.529, -4.075]}
 					rotation={[Math.PI / 2, -Math.PI / 2, 0]}
 				>
-					<meshBasicMaterial map={bakedTexture} />
+					<meshBasicMaterial map={vangogh} />
 				</mesh>
 				<mesh
 					name="Cabinet_cover"
@@ -455,7 +458,7 @@ export function RoomVersion1(props) {
 					position={[-4.622, 2.561, 0.273]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Pawn000"
@@ -464,7 +467,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Rook003"
@@ -472,7 +475,7 @@ export function RoomVersion1(props) {
 					material={nodes.Rook003.material}
 					position={[6.551, -0.886, -4.555]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Pawn001"
@@ -480,7 +483,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="RUYLOPEZKNIGHTWHITE"
@@ -489,7 +492,7 @@ export function RoomVersion1(props) {
 					position={[6.327, 0.554, 1.043]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="queeen001"
@@ -498,7 +501,7 @@ export function RoomVersion1(props) {
 					position={[6.548, 1.987, 0.275]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="bishop001"
@@ -507,7 +510,7 @@ export function RoomVersion1(props) {
 					position={[6.539, 1.347, 1.055]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="king001"
@@ -516,7 +519,7 @@ export function RoomVersion1(props) {
 					position={[6.548, 2.561, 1.892]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="bishop"
@@ -524,7 +527,7 @@ export function RoomVersion1(props) {
 					material={nodes.bishop.material}
 					position={[-4.65, -0.886, -1.027]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="queeen"
@@ -532,7 +535,7 @@ export function RoomVersion1(props) {
 					material={nodes.queeen.material}
 					position={[-4.65, -0.886, -1.027]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="RUYLOPEZKNIGHT"
@@ -548,7 +551,7 @@ export function RoomVersion1(props) {
 					material={nodes.Rook.material}
 					position={[-4.65, -0.886, -4.523]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="board"
@@ -565,7 +568,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Pawn005"
@@ -574,7 +577,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Pawn007"
@@ -583,7 +586,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="RUYLOPEZPAWNBLACK"
@@ -592,7 +595,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Pawn011"
@@ -601,7 +604,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Pawn013"
@@ -610,7 +613,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Pawn015"
@@ -619,7 +622,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Pawn006"
@@ -628,7 +631,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Pawn008"
@@ -637,7 +640,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Pawn014"
@@ -646,7 +649,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="RUYLOPEZPAWNWHITE"
@@ -655,7 +658,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Pawn019"
@@ -664,7 +667,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Pawn020"
@@ -673,7 +676,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Pawn023"
@@ -682,7 +685,7 @@ export function RoomVersion1(props) {
 					position={[4.955, 0.378, 1.098]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Knight002"
@@ -691,7 +694,7 @@ export function RoomVersion1(props) {
 					position={[6.327, 0.554, 1.043]}
 					rotation={[Math.PI, 0, Math.PI]}
 				>
-					<meshBasicMaterial map={whitePiece} />
+					<meshStandardMaterial map={whitePiece} />
 				</mesh>
 				<mesh
 					name="Knight003"
@@ -699,7 +702,7 @@ export function RoomVersion1(props) {
 					material={nodes.Knight003.material}
 					position={[-4.65, -0.886, -2.87]}
 				>
-					<meshBasicMaterial map={blackPiece} />
+					<meshStandardMaterial map={blackPiece} />
 				</mesh>
 				<mesh
 					name="Flowerke"
@@ -798,4 +801,4 @@ export function RoomVersion1(props) {
 	);
 }
 
-useGLTF.preload("/Roomversion1.glb");
+useGLTF.preload("/RoomVersion1.glb");
