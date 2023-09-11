@@ -4,7 +4,7 @@ Command: npx gltfjsx@6.2.10 public/Roomversion1.glb -k -K
 */
 
 import React, { useRef } from "react";
-import { useGLTF, useTexture } from "@react-three/drei";
+import { Plane, useGLTF, useTexture } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
 
@@ -29,7 +29,7 @@ export function RoomVersion1(props) {
 	const graffiti = useLoader(TextureLoader, "/static/graffiti.jpg");
 	graffiti.flipY = false;
 
-	const vangogh = useLoader(TextureLoader, "/static/vangogh.jpg");
+	const vangogh = useLoader(TextureLoader, "/static/asdad.jpg");
 	vangogh.flipY = false;
 	const macbookKeyboard = useLoader(
 		TextureLoader,
@@ -399,7 +399,7 @@ export function RoomVersion1(props) {
 				>
 					<meshBasicMaterial map={bakedTexture} />
 				</mesh>
-				<mesh
+				{/* <mesh
 					name="PAINTINGPICTURE001"
 					geometry={nodes.PAINTINGPICTURE001.geometry}
 					material={nodes.PAINTINGPICTURE001.material}
@@ -407,7 +407,15 @@ export function RoomVersion1(props) {
 					rotation={[Math.PI / 2, -Math.PI / 2, 0]}
 				>
 					<meshBasicMaterial map={vangogh} />
-				</mesh>
+				</mesh> */}
+
+				<Plane
+					position={[0.64, 3.529, -4.073]}
+					// rotation={[Math.PI / 2, -Math.PI / 2, 0]}
+					args={[0.7, 0.9]}
+				>
+					<meshBasicMaterial map={vangogh} />
+				</Plane>
 				<mesh
 					name="Cabinet_cover"
 					geometry={nodes.Cabinet_cover.geometry}
