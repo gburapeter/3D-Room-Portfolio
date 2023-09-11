@@ -290,7 +290,7 @@ export function Roomv6(props) {
 						position={[-0.066, -0.002, 0.042]}
 						rotation={[0, 0, -Math.PI / 2]}
 					>
-						<meshBasicMaterial map={bakedTexture} />
+						<meshBasicMaterial color={"white"} />
 					</mesh>
 					<mesh
 						name="BUTTON"
