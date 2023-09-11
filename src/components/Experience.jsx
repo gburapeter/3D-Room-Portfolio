@@ -1,13 +1,13 @@
-import { Environment, OrbitControls, useScroll } from "@react-three/drei";
+import { useScroll } from "@react-three/drei";
 import { Suspense, useState } from "react";
-
-import { Html, useProgress } from "@react-three/drei";
+import { Html } from "@react-three/drei";
 import { useCurrentSheet } from "@theatre/r3f";
 import { useFrame } from "@react-three/fiber";
 import { val } from "@theatre/core";
 import { Overlay } from "./TextContent/Overlay";
 import Content from "./TextContent/Content";
-import { Roomv6 } from "../../Roomv6";
+
+import { RoomVersion1 } from "./Models/Roomversion1";
 
 export default function Experience({ stopFunction, setPages, setEnabled }) {
 	const sheet = useCurrentSheet();
@@ -32,17 +32,11 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 			<Html center>
 				<Content setStart={setStart} show={show} />
 			</Html>
-			{/* <OrbitControls /> */}
-			{/* <ambientLight color="#FFDAB9" intensity={0.5} /> */}
-			{/* <ambientLight color="#FFDAB9" intensity={2} />
-			<directionalLight color="#FFD700" intensity={1} position={[1, 1, 0]} />
-			<Environment preset="city" /> */}
-			{/* )} */}
+
 			<Suspense fallback={null}>
-				<Roomv6 />
+				<RoomVersion1 />
 			</Suspense>
 			<Overlay />
-			{/* </Center> */}
 		</>
 	);
 }
