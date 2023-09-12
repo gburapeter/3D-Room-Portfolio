@@ -24,7 +24,7 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 
 	const setStart = () => {
 		setEnabled(true);
-		setPages(20);
+		setPages(21);
 		setShow(true);
 	};
 	return (
