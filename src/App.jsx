@@ -6,7 +6,7 @@ import { SheetProvider, PerspectiveCamera } from "@theatre/r3f";
 import { getProject, onChange } from "@theatre/core";
 import Experience from "./components/Experience";
 import { Loader, ScrollControls, Html } from "@react-three/drei";
-import demoProjectState from "./textstate.json";
+import demoProjectState from "./finalstate.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
 import DilatedPeoples from "../src/assets/dilated.mp3";
@@ -29,7 +29,7 @@ export default function App(props) {
 	const playAudio = onChange(
 		demoSheet.sequence.pointer.position,
 		(position) => {
-			if (position > 8.3) {
+			if (position > 8.09) {
 				playAudio();
 				play();
 			}

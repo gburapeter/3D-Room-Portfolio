@@ -7,7 +7,7 @@ import React, { useRef } from "react";
 import { Plane, useGLTF, useTexture } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
-
+import { editable as e } from "@theatre/r3f";
 export function RoomVersion1(props) {
 	const { nodes, materials } = useGLTF("/RoomVersion1.glb");
 	const bakedTexture = useTexture("/static/decompressed.jpg");
@@ -50,7 +50,7 @@ export function RoomVersion1(props) {
 	computerKeyboard.flipY = false;
 	return (
 		<group {...props} dispose={null}>
-			<group name="Scene">
+			<e.group name="Scene" theatreKey="Scene">
 				<group name="Bed" position={[-3.67, 0.594, -2.665]}>
 					<mesh
 						name="Bed_low"
@@ -244,15 +244,16 @@ export function RoomVersion1(props) {
 					>
 						<meshBasicMaterial map={bakedTexture} />
 					</mesh>
-					<mesh
+					<e.mesh
+						theatreKey="VinylCylinder"
 						name="pickup003"
 						geometry={nodes.pickup003.geometry}
-						material={nodes.pickup003.material}
+						// material={nodes.pickup003.material}
 						position={[-0.181, 0.125, -0.162]}
 						rotation={[0, 0, -Math.PI / 2]}
 					>
-						<meshBasicMaterial map={bakedTexture} />
-					</mesh>
+						<meshStandardMaterial map={whitePiece} />
+					</e.mesh>
 					<mesh
 						name="piece"
 						geometry={nodes.piece.geometry}
@@ -261,14 +262,15 @@ export function RoomVersion1(props) {
 					>
 						<meshBasicMaterial map={bakedTexture} />
 					</mesh>
-					<mesh
+					<e.mesh
+						theatreKey="VinylPlate"
 						name="vinyl_plate"
 						geometry={nodes.vinyl_plate.geometry}
 						material={nodes.vinyl_plate.material}
 						position={[0.002, 0.093, 0.039]}
 					>
 						<meshBasicMaterial map={bakedTexture} />
-					</mesh>
+					</e.mesh>
 				</group>
 				<group
 					name="Book001"
@@ -442,14 +444,16 @@ export function RoomVersion1(props) {
 				>
 					<meshBasicMaterial map={bakedTexture} />
 				</mesh>
-				<mesh
+				<e.mesh
+					theatreKey="VinylGraffiti"
 					name="Vinylfeher"
 					geometry={nodes.Cylinder.geometry}
 					material={nodes.Cylinder.material}
 					position={[0, 1.82, 0]}
+					rotation={[0, 0, 0]}
 				>
 					<meshBasicMaterial map={graffiti} />
-				</mesh>
+				</e.mesh>
 				<mesh
 					name="CHESSASZTAL"
 					geometry={nodes.CHESSASZTAL.geometry}
@@ -493,7 +497,8 @@ export function RoomVersion1(props) {
 				>
 					<meshStandardMaterial map={whitePiece} />
 				</mesh>
-				<mesh
+				<e.mesh
+					theatreKey="whiteKnight"
 					name="RUYLOPEZKNIGHTWHITE"
 					geometry={nodes.RUYLOPEZKNIGHTWHITE.geometry}
 					material={nodes.RUYLOPEZKNIGHTWHITE.material}
@@ -501,7 +506,7 @@ export function RoomVersion1(props) {
 					rotation={[Math.PI, 0, Math.PI]}
 				>
 					<meshStandardMaterial map={whitePiece} />
-				</mesh>
+				</e.mesh>
 				<mesh
 					name="queeen001"
 					geometry={nodes.queeen001.geometry}
@@ -545,14 +550,15 @@ export function RoomVersion1(props) {
 				>
 					<meshStandardMaterial map={blackPiece} />
 				</mesh>
-				<mesh
+				<e.mesh
+					theatreKey="blackKnight"
 					name="RUYLOPEZKNIGHT"
 					geometry={nodes.RUYLOPEZKNIGHT.geometry}
 					material={nodes.RUYLOPEZKNIGHT.material}
 					position={[-4.65, -0.886, -2.87]}
 				>
 					<meshStandardMaterial roughness={1} color={"black"} />
-				</mesh>
+				</e.mesh>
 				<mesh
 					name="Rook"
 					geometry={nodes.Rook.geometry}
@@ -596,7 +602,8 @@ export function RoomVersion1(props) {
 				>
 					<meshStandardMaterial map={blackPiece} />
 				</mesh>
-				<mesh
+				<e.mesh
+					theatreKey="blackPawn"
 					name="RUYLOPEZPAWNBLACK"
 					geometry={nodes.RUYLOPEZPAWNBLACK.geometry}
 					material={nodes.RUYLOPEZPAWNBLACK.material}
@@ -604,7 +611,7 @@ export function RoomVersion1(props) {
 					rotation={[Math.PI, 0, Math.PI]}
 				>
 					<meshStandardMaterial map={blackPiece} />
-				</mesh>
+				</e.mesh>
 				<mesh
 					name="Pawn011"
 					geometry={nodes.Pawn011.geometry}
@@ -659,7 +666,8 @@ export function RoomVersion1(props) {
 				>
 					<meshStandardMaterial map={whitePiece} />
 				</mesh>
-				<mesh
+				<e.mesh
+					theatreKey="whitePawn1"
 					name="RUYLOPEZPAWNWHITE"
 					geometry={nodes.RUYLOPEZPAWNWHITE.geometry}
 					material={nodes.RUYLOPEZPAWNWHITE.material}
@@ -667,7 +675,7 @@ export function RoomVersion1(props) {
 					rotation={[Math.PI, 0, Math.PI]}
 				>
 					<meshStandardMaterial map={whitePiece} />
-				</mesh>
+				</e.mesh>
 				<mesh
 					name="Pawn019"
 					geometry={nodes.Pawn019.geometry}
@@ -804,7 +812,7 @@ export function RoomVersion1(props) {
 				>
 					<meshBasicMaterial map={computerScreen} />
 				</mesh>
-			</group>
+			</e.group>
 		</group>
 	);
 }
