@@ -54,6 +54,40 @@
 }
 
 .blurableScreen {
-	height: calc(100vh) !important;
+	height: calc(90vh) !important;
 	width: calc(100vw) !important;
+}
+
+@media only screen and (max-width: 450px) {
+	.blurableScreen {
+		width: calc(110vw) !important;
+	}
+
+	.tutorial {
+		right: 15vw;
+	}
+
+	.socials {
+		flex-direction: column !important;
+		padding-right: 9vw;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	.blurableScreen {
+		width: calc(115vw) !important;
+	}
+
+	.tutorial {
+		padding-right: 5vw;
+	}
+}
+
+@media only screen and (max-width: 378px) {
+	.blurableScreen {
+		width: calc(120vw) !important;
+	}
+	.socials {
+		padding-right: 12vw;
+	}
 }

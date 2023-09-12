@@ -27,11 +27,14 @@ export default function Content({ show, setStart }) {
 					</div>
 
 					<div className="tutorial">
-						<span className="italic font-bold">Hint: </span>
-						<br />
-						press the button
-						<br />
-						and slowly start scrolling
+						<div className="flex flex-col items-center">
+							<span className="italic font-bold">Hint: </span>
+							<span className="text-left">press the button</span>
+							<div className="flex items-center">
+								<span className="mx-1">and</span>
+							</div>
+							<span className="text-left">slowly start scrolling</span>
+						</div>
 					</div>
 
 					<div className="credits">
