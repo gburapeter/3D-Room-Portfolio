@@ -557,7 +557,7 @@ export function RoomVersion1(props) {
 					material={nodes.RUYLOPEZKNIGHT.material}
 					position={[-4.65, -0.886, -2.87]}
 				>
-					<meshStandardMaterial roughness={1} color={"black"} />
+					<meshStandardMaterial map={blackPiece} />
 				</e.mesh>
 				<mesh
 					name="Rook"
