@@ -96,9 +96,9 @@ export const Overlay = () => {
 															statements in{" "}
 															<span className="text-blue-300 font-bold">
 																Apex
-															</span>
+															</span>{" "}
 															, Lightning and Aura Web components
-															made in
+															made in{" "}
 															<span className="text-blue-300 font-bold">
 																Javascript
 															</span>
@@ -153,8 +153,8 @@ export const Overlay = () => {
 															<span className="text-blue-300 font-bold">
 																Laravel Livewire, Alpine.js
 															</span>{" "}
-															and classic blade syntax mixed with
-															some{" "}
+															and classic blade syntax enhanced
+															with some{" "}
 															<span className="text-blue-300 font-bold">
 																Tailwind CSS
 															</span>
@@ -175,8 +175,8 @@ export const Overlay = () => {
 															<span className="text-blue-300 font-bold">
 																Wordpress
 															</span>{" "}
-															project, naming tasks as: fixing
-															bugs, new features (digital
+															project, undergoing tasks as:
+															fixing bugs, new features (digital
 															contract signature) <br />
 															<span className="text-blue-300 font-bold">
 																Docker + AWS + CI/CD
