@@ -48,12 +48,12 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
-															Main modules:Mathematical analysis,
-															Discrete mathematics, Linear
-															Algebra, Stochastic processes,
-															Statistics, Number theory, Data
-															structures and algorithms, AI,
-															Cryptography
+															Main modules: Mathematical
+															analysis, Discrete mathematics,
+															Linear Algebra, Stochastic
+															processes, Statistics, Number
+															theory, Data structures and
+															algorithms, AI, Cryptography
 														</div>
 													</div>
 												</div>
@@ -342,8 +342,8 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
-															I really liked the whole new idea
-															of having{" "}
+															I was really keen on the whole new
+															idea of having{" "}
 															<span className="text-blue-300 font-bold">
 																React and Laravel
 															</span>{" "}
@@ -352,15 +352,16 @@ export const Overlay = () => {
 																Inertia.js
 															</span>{" "}
 															proved to be the perfect bridge for
-															this. Throughout 5 months I single
-															handedly developed a fully
-															functional webshop application{" "}
+															this. Throughout 5 months period of
+															time - I've single handedly
+															developed a fully functional
+															webshop application{" "}
 															<span className="text-blue-300 font-bold">
 																(React+Laravel+Inertia+MariaDB)
 															</span>{" "}
 															where users could browse, select
-															and finalize a payment( Paypal) for
-															different products.
+															and finalize a payment (Paypal) for
+															various products.
 														</div>
 													</div>
 													<div className="text-base font-medium italic leading-6">
@@ -411,15 +412,15 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
-															Converting the university's
-															homepage to a{" "}
+															Converting part of the university's
+															website to a{" "}
 															<span className="text-blue-300 font-bold">
 																PWA
 															</span>{" "}
 															in React. Usage of caching
-															strategies, push notis, in the end
-															resulting in a desktop app.
-															(Workbox)
+															strategies, push notis, eventually
+															leading to a installable desktop
+															app (Workbox)
 														</div>
 													</div>
 													<div className="text-base font-medium italic leading-6">
@@ -501,7 +502,7 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
-															Hobbywise I spent time with
+															Hobbywise I've spent time on
 															developing websites containing 3D
 															models. Started with native{" "}
 															<span className="text-blue-300 font-bold">
