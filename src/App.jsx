@@ -51,7 +51,7 @@ export default function App(props) {
 					enabled={enabled}
 					pages={pages}
 					damping={1}
-					maxSpeed={0.08}
+					maxSpeed={0.1}
 				>
 					<SheetProvider sheet={demoSheet}>
 						<PerspectiveCamera
