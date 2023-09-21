@@ -412,8 +412,8 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-200 ">
-															Converting part of the university's
-															website to a{" "}
+															Converting parts of the
+															university's website to a{" "}
 															<span className="text-blue-300 font-bold">
 																PWA
 															</span>{" "}

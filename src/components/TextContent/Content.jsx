@@ -33,7 +33,7 @@ export default function Content({ show, setStart }) {
 							<div className="flex items-center">
 								<span className="mx-1">and</span>
 							</div>
-							<span className="text-left">slowly start scrolling</span>
+							<span className="text-left">keep scrolling slowly</span>
 						</div>
 					</div>
 
