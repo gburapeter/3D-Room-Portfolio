@@ -1,17 +1,33 @@
-<h1 align="center" id="title">Portfolio - React Three Fiber</h1>
 
-<p id="description">3D Portfolio room created in R3F</p>
+<h1 align="center">Welcome to my portfolio project 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-v1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-<h2>🚀 Demo</h2>
+> * Portfolio room created in React Three Fiber (Three.js)
+> * 3D Modeling: Blender
+> * Theatre.js + GSAP for animations
 
-www.gburapeter.info
 
-  
-  
-<h2>🧐 Features</h2>
+### 🚀 [Demo](www.gburapeter.info)
 
-Here're some of the project's best features:
 
-*   3D Modeling: Blender
-*   React Three Fiber (Three.js)
-*   Theatre.js + GSAP for animations
+## Author
+
+👤 **Ghiurutan-Bura Péter**
+
+* Github: [@gburapeter](https://github.com/gburapeter)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/gburapeter/room-portfolio-gbp-v2/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
