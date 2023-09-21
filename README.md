@@ -14,3 +14,4 @@ Here're some of the project's best features:
 
 *   3D Modeling: Blender
 *   React Three Fiber (Three.js)
+*   Theatre.js + GSAP for animations
