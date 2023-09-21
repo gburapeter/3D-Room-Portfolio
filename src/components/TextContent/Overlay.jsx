@@ -295,7 +295,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-white hover:text-gray-700 font-bold"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./tutored_research.pdf"
 														>
@@ -305,7 +305,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-white hover:text-gray-700 font-bold"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/LinkableRingSignatures/blob/master/PythonApplication2/LinkableRingSignature.py"
 														>
@@ -367,7 +367,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-white hover:text-gray-700 font-bold"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./thesisgbp.pdf"
 														>
@@ -377,7 +377,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-white hover:text-gray-700 font-bold"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/WebshopThesisGBP"
 														>
@@ -426,7 +426,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-white hover:text-gray-700 font-bold"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="./pwa.pdf"
 														>
@@ -436,7 +436,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-white hover:text-gray-700 font-bold"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/react-pwa"
 														>
@@ -526,7 +526,7 @@ export const Overlay = () => {
 													<div className="text-base font-medium italic leading-6">
 														<a
 															target="_blank"
-															className="text-white hover:text-gray-700 font-bold"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
 															aria-label='Read "Deriving the OLS Estimator"'
 															href="https://github.com/gburapeter/room-portfolio-gbp-v2"
 														>
