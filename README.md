@@ -4,7 +4,7 @@
 
 <h2>🚀 Demo</h2>
 
-[www.gburapeter.info](www.gburapeter.info)
+www.gburapeter.info
 
   
   
