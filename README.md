@@ -12,7 +12,7 @@
 > * Theatre.js + GSAP for animations
 
 
-### 🚀 [Demo](www.gburapeter.info)
+### 🚀 [Demo](https://www.gburapeter.info)
 
 
 ## Author
