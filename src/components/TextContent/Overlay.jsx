@@ -456,23 +456,68 @@ export const Overlay = () => {
 															<h2 className="text-2xl font-bold leading-8 tracking-tight">
 																<a
 																	className="text-slate-100"
-																	href="/blog/nested-route/introducing-multi-part-posts-with-nested-routing"
+																	href="/blog/release-of-tailwind-nextjs-starter-blog-v2.0"
 																>
-																	React project
+																	Apple Rework
 																</a>
 															</h2>
 															<div className="flex flex-wrap">
 																<a
 																	className="mr-3 text-sm italic uppercase text-yellow-500 font-bold"
-																	href="/tags/multi-author"
+																	href="/tags/next-js"
 																>
-																	FILLTHIS
+																	React Remix
 																</a>
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-100">
-															fillthis
+															Rethinking{" "}
+															<span className="text-yellow-500 font-bold">
+																www.apple.com's
+															</span>{" "}
+															landing page. Usage of{" "}
+															<span className="text-yellow-500 font-bold">
+																React-Remix
+															</span>
+															, enhancing the page with 3D models
+															from{" "}
+															<span className="text-yellow-500 font-bold">
+																Blender
+															</span>{" "}
+															through{" "}
+															<span className="text-yellow-500 font-bold">
+																React Three Fiber
+															</span>
+															. Animations done with{" "}
+															<span className="text-yellow-500 font-bold">
+																Framer Motion
+															</span>
+															. Scrollable model approach with{" "}
+															<span className="text-yellow-500 font-bold">
+																R3F Drei
+															</span>{" "}
+															library.
 														</div>
+													</div>
+													<div className="text-base font-medium italic leading-6">
+														<a
+															target="_blank"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
+															aria-label='Read "Deriving the OLS Estimator"'
+															href="https://apple-rework.vercel.app/"
+														>
+															Demo →
+														</a>
+													</div>
+													<div className="text-base font-medium italic leading-6">
+														<a
+															target="_blank"
+															className="text-yellow-500 hover:text-slate-200 font-bold"
+															aria-label='Read "Deriving the OLS Estimator"'
+															href="https://github.com/gburapeter/apple-rework"
+														>
+															Github →
+														</a>
 													</div>
 												</div>
 											</div>
@@ -520,7 +565,10 @@ export const Overlay = () => {
 															<span className="text-yellow-500 font-bold">
 																Blender
 															</span>{" "}
-															for modelling.
+															for modelling.{" "}
+															<span className="text-yellow-500 font-bold">
+																UV Unwrap + Baking
+															</span>
 														</div>
 													</div>
 													<div className="text-base font-medium italic leading-6">
