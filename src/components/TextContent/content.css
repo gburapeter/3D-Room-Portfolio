@@ -10,61 +10,47 @@
 .personalName {
 	position: absolute;
 	font-size: max(2.5vw, 16px);
-	top: 5vw;
-	left: 3vw;
+
+	top: clamp(4rem, 5vw, 5.5rem);
+	left: clamp(1.5rem, 3vw, 3rem);
 }
 
 .socials {
 	position: absolute;
 
-	bottom: 5vw;
-	right: 9vw;
+	bottom: clamp(4rem, 5vw, 5.5rem);
+	right: clamp(3rem, 9vw, 10rem);
 }
 
 .role {
-	font-size: max(2vw, 16px);
+	font-size: clamp(1rem, 2vw, 2rem);
 }
 
 h2 {
 	padding: 0;
 	margin: 0 0 0.05em 0;
 	font-weight: 400;
-	font-size: min(8vw, 14em);
+	font-size: clamp(1rem, 8vw, 2rem);
+
 	line-height: 0.85em;
 	font-family: "Abril Fatface", cursive;
 }
 .credits {
-	/* position: absolute;
-	bottom: 5vw;
-	left: 37vw;
-	text-align: center; */
-	padding-top: 75vh;
-	padding-right: 5vw;
-	font-size: 2vw;
+	padding-top: max(75vh, 15vh);
+	padding-right: max(5vw, 6.5rem);
+	font-size: clamp(1rem, 1.5vw, 2rem);
 
 	display: flex;
 	justify-content: center;
 }
 
-.links {
-	position: absolute;
-	top: 5vw;
-	right: 3vw;
-	width: 35ch;
-	max-width: 40%;
-	line-height: 1em;
-	letter-spacing: -0.01em;
-	text-align: center;
-	font-size: max(1.5vw, 16px);
-}
-
 .tutorial {
 	position: absolute;
-	font-size: max(1.5vw, 16px);
-	top: 5vw;
-	right: 9vw;
+	font-size: clamp(1rem, 1.5vw, 2rem);
+	top: clamp(4rem, 5vw, 5.5rem);
+	right: clamp(3rem, 9vw, 10rem);
 }
 
 .hint {
-	font-size: max(1.9vw, 19px);
+	font-size: clamp(1rem, 2.5vw, 2rem);
 }
