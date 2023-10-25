@@ -19,7 +19,7 @@
 	position: absolute;
 
 	bottom: clamp(4rem, 5vw, 5.5rem);
-	right: clamp(3rem, 9vw, 10rem);
+	right: clamp(4rem, 9vw, 10rem);
 }
 
 .role {
@@ -48,7 +48,7 @@ h2 {
 	position: absolute;
 	font-size: clamp(1rem, 1.5vw, 2rem);
 	top: clamp(4rem, 5vw, 5.5rem);
-	right: clamp(3rem, 9vw, 10rem);
+	right: clamp(4rem, 9vw, 10rem);
 }
 
 .hint {
