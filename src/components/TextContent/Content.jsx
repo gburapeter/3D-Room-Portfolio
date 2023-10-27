@@ -28,7 +28,7 @@ export default function Content({ show, setStart }) {
 
 					<div className="tutorial">
 						<div className="flex flex-col items-center">
-							<span className="text-blue-900 hover:text-blue-900 hint font-bold">
+							<span className="text-blue-900 hover:text-blue-900 hint font-extrabold">
 								Hint:{" "}
 							</span>
 							<span className="text-left">press the button</span>
