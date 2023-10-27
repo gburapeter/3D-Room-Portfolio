@@ -66,9 +66,13 @@ export const Overlay = () => {
 												<dl>
 													<dt className="sr-only">Published on</dt>
 													<dd className="text-base font-medium italic leading-6 text-slate-100">
-														<time dateTime="2021-08-07T15:32:14.000Z">
-															October, 2021 - December 2021
-														</time>
+														<div className="w-min flex-col flex ">
+															10/2021 <br />
+															<span className="self-center">
+																-
+															</span>
+															12/2021
+														</div>
 													</dd>
 												</dl>
 												<div className="space-y-5 xl:col-span-3">
@@ -115,9 +119,13 @@ export const Overlay = () => {
 												<dl>
 													<dt className="sr-only">Published on</dt>
 													<dd className="text-base font-medium italic leading-6 text-slate-100">
-														<time dateTime="2021-05-02T00:00:00.000Z">
-															February, 2022 - September, 2022
-														</time>
+														<div className="w-min flex-col flex ">
+															02/2022 <br />
+															<span className="self-center">
+																-
+															</span>
+															09/2022
+														</div>
 													</dd>
 												</dl>
 												<div className="space-y-5 xl:col-span-3">
@@ -188,9 +196,13 @@ export const Overlay = () => {
 												<dl>
 													<dt className="sr-only">Published on</dt>
 													<dd className="text-base font-medium italic leading-6 text-slate-100">
-														<time dateTime="2021-01-12T00:00:00.000Z">
-															September, 2022 - July, 2023
-														</time>
+														<div className="w-min flex-col flex ">
+															09/2022 <br />
+															<span className="self-center">
+																-
+															</span>
+															07/2023
+														</div>
 													</dd>
 												</dl>
 												<div className="space-y-5 xl:col-span-3">
