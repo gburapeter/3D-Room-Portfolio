@@ -41,7 +41,7 @@ export default function Content({ show, setStart }) {
 
 					<div className="credits">
 						<button
-							className="font-bold text-black bg-blue-200 hover:bg-blue-600 transition-colors duration-200 hover:text-white rounded-full px-8 py-6 shadow-lg text-xl"
+							className="font-bold text-black bg-blue-300 hover:bg-blue-600 transition-colors duration-200 hover:text-white rounded-full px-8 py-6 shadow-lg text-xl"
 							onClick={() => setStart()}
 						>
 							Start journey
