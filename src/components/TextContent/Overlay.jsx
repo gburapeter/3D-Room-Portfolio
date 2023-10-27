@@ -523,16 +523,6 @@ export const Overlay = () => {
 															Demo →
 														</a>
 													</div>
-													<div className="text-base font-medium italic leading-6">
-														<a
-															target="_blank"
-															className="text-yellow-500 hover:text-slate-200 font-bold"
-															aria-label='Read "Deriving the OLS Estimator"'
-															href="https://github.com/gburapeter/apple-rework"
-														>
-															Github →
-														</a>
-													</div>
 												</div>
 											</div>
 										</article>
