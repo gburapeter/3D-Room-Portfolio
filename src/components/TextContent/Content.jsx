@@ -14,7 +14,7 @@ export default function Content({ show, setStart }) {
 					
 					 ${!show ? "opacity-100" : "opacity-0"}`}
 				>
-					<div className="personalName">
+					<div className="personalName text-blue-900">
 						<h2>
 							Ghiurutan-Bura
 							<br />
