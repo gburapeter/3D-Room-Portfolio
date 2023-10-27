@@ -142,45 +142,40 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-100">
-															Being part of a digital agency, the
-															first project consisted of
-															developing a fullstack admin panel
-															in{" "}
+															Project: admin panel, API for a
+															mobile app <br />
 															<span className="text-yellow-500 font-bold">
-																Laravel
+																Back-end
 															</span>
-															. Frontend has been a mix of{" "}
-															<span className="text-yellow-500 font-bold">
-																Laravel Livewire, Alpine.js
+															<br />
+															<span className="font-bold text-slate-300">
+																Stacks:
 															</span>{" "}
-															and classic blade syntax enhanced
-															with some{" "}
-															<span className="text-yellow-500 font-bold">
-																Tailwind CSS
-															</span>
-															. Database:{" "}
-															<span className="text-yellow-500 font-bold">
-																MySQL/MariaDB
-															</span>
-															. Main focuses: Rest API, db
-															transactions, query optimization,
-															unit/feature tests, UI
-															implementation etc.
-															<br></br>Furthermore took part in
-															mobile development (
-															<span className="text-yellow-500 font-bold">
-																React Native
-															</span>
-															) and in a{" "}
-															<span className="text-yellow-500 font-bold">
-																Wordpress
+															Laravel, MariaDB <br />
+															<span className="font-bold text-slate-300">
+																Responsibilities:{" "}
 															</span>{" "}
-															project, undergoing tasks as:
-															fixing bugs, new features (digital
-															contract signature) <br />
+															REST API, database modelling(ORM
+															relationships), performance
+															optimized queries,
+															authorizations(roles), unit/feature
+															+ PHP Pest testing <br />
 															<span className="text-yellow-500 font-bold">
-																Docker + AWS + CI/CD
+																Front-end
 															</span>
+															<br />
+															<span className="font-bold text-slate-300">
+																Stacks:
+															</span>{" "}
+															Laravel Livewire, Alpine.js,
+															Tailwind CSS
+															<br />
+															<span className="font-bold text-slate-300">
+																Responsibilities:{" "}
+															</span>
+															Figma to code implementation,
+															general UI optimizations, Livewire
+															test coverage
 														</div>
 													</div>
 												</div>
@@ -215,37 +210,46 @@ export const Overlay = () => {
 																	href="/tags/next-js"
 																>
 																	Full-stack developer
-																	(Freelance-ish)
 																</a>
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-100">
-															Development of a web application
-															for a leading danish media group.{" "}
+															Project: sales platform for a
+															danish media group <br />
 															<span className="text-yellow-500 font-bold">
-																Laravel
-															</span>{" "}
-															backend with{" "}
-															<span className="text-yellow-500 font-bold">
-																MariaDB
-															</span>{" "}
-															behind it, and{" "}
-															<span className="text-yellow-500 font-bold">
-																Livewire+Alpine.js
-															</span>{" "}
-															client-side powered by{" "}
-															<span className="text-yellow-500 font-bold">
-																Tailwind
+																Back-end
 															</span>
-															.<br />
+															<br />
+															<span className="font-bold text-slate-300">
+																Stacks:
+															</span>{" "}
+															Laravel, MariaDB <br />
+															<span className="font-bold text-slate-300">
+																Responsibilities:{" "}
+															</span>{" "}
+															Statistics implementation featuring
+															sales/number of clients/best
+															selling products, Database ORM
+															setup(models,migration,seeder,relationships),
+															sign up/authorization flow,
+															unit/feature + PHP Pest testing{" "}
+															<br />
 															<span className="text-yellow-500 font-bold">
-																PEST PHP tests + Livewire tests
-																coverage
+																Front-end
 															</span>
-															.<br />
-															<span className="text-yellow-500 font-bold">
-																Docker + AWS + CI/CD
+															<br />
+															<span className="font-bold text-slate-300">
+																Stacks:
+															</span>{" "}
+															Laravel Livewire, Alpine.js,
+															Tailwind CSS
+															<br />
+															<span className="font-bold text-slate-300">
+																Responsibilities:{" "}
 															</span>
+															Design to code implementation,
+															general UI optimizations, Livewire
+															test coverage
 														</div>
 													</div>
 												</div>
@@ -254,7 +258,7 @@ export const Overlay = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="pt-40 pl-5 pr-5 divide-y divide-slate-200/60">
+							<div className="pt-28 pl-5 pr-5 divide-y divide-slate-200/60">
 								<div className="space-y-2 pb-8 pt-6 md:space-y-5">
 									<h1 className="text-3xl font-extrabold leading-9 tracking-tight text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
 										Hobby & Projects
@@ -342,8 +346,6 @@ export const Overlay = () => {
 															</div>
 														</div>
 														<div className="prose max-w-none text-slate-100">
-															I was really keen on the whole new
-															idea of having{" "}
 															<span className="text-yellow-500 font-bold">
 																React and Laravel
 															</span>{" "}
