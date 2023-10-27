@@ -62,9 +62,13 @@
 @media only screen and (max-width: 450px) {
 	.socials {
 		flex-direction: column !important;
-		padding-right: 5vw;
+		bottom: clamp(1rem, 2vw, 5.5rem);
+		padding-right: 6.5vw !important;
 	}
 	.blurableScreen {
 		width: calc(120vw) !important;
+	}
+	.tutorial {
+		display: none !important;
 	}
 }

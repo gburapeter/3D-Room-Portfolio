@@ -156,11 +156,11 @@ export const Overlay = () => {
 																Back-end
 															</span>
 															<br />
-															<span className="font-bold text-slate-300">
+															<span className=" font-bold text-slate-300 underline ">
 																Stacks:
 															</span>{" "}
 															Laravel, MariaDB <br />
-															<span className="font-bold text-slate-300">
+															<span className="font-bold text-slate-300 underline ">
 																Responsibilities:{" "}
 															</span>{" "}
 															REST API, database modelling(ORM
@@ -172,13 +172,13 @@ export const Overlay = () => {
 																Front-end
 															</span>
 															<br />
-															<span className="font-bold text-slate-300">
+															<span className="font-bold text-slate-300 underline ">
 																Stacks:
 															</span>{" "}
 															Laravel Livewire, Alpine.js,
 															Tailwind CSS
 															<br />
-															<span className="font-bold text-slate-300">
+															<span className="font-bold text-slate-300 underline ">
 																Responsibilities:{" "}
 															</span>
 															Figma to code implementation,
@@ -232,11 +232,11 @@ export const Overlay = () => {
 																Back-end
 															</span>
 															<br />
-															<span className="font-bold text-slate-300">
+															<span className="font-bold text-slate-300 underline ">
 																Stacks:
 															</span>{" "}
 															Laravel, MariaDB <br />
-															<span className="font-bold text-slate-300">
+															<span className="font-bold text-slate-300 underline ">
 																Responsibilities:{" "}
 															</span>{" "}
 															Statistics implementation featuring
@@ -250,13 +250,13 @@ export const Overlay = () => {
 																Front-end
 															</span>
 															<br />
-															<span className="font-bold text-slate-300">
+															<span className="font-bold text-slate-300 underline ">
 																Stacks:
 															</span>{" "}
 															Laravel Livewire, Alpine.js,
 															Tailwind CSS
 															<br />
-															<span className="font-bold text-slate-300">
+															<span className="font-bold text-slate-300 underline ">
 																Responsibilities:{" "}
 															</span>
 															Design to code implementation,

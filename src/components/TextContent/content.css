@@ -1,25 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap");
-
 .container {
 	font-size: 16px;
-	font-family: "Newsreader", serif;
 }
 
 .personalName {
 	position: absolute;
-	font-size: max(2.5vw, 16px);
+	font-size: clamp(1.6rem, 3.2vw, 4rem);
 
 	top: clamp(4rem, 5vw, 5.5rem);
-	left: clamp(1.5rem, 3vw, 3rem);
+	left: clamp(1rem, 3vw, 2.5rem);
 }
 
+.role {
+	font-size: clamp(1rem, 1.8vw, 2.5rem) !important;
+}
 .socials {
 	position: absolute;
-
-	bottom: clamp(4rem, 5vw, 5.5rem);
-	right: clamp(4rem, 9vw, 10rem);
+	bottom: clamp(3rem, 3.1vw, 5.5rem);
+	right: clamp(4rem, 9.5vw, 12rem);
 }
 
 .role {
@@ -29,11 +26,10 @@
 h2 {
 	padding: 0;
 	margin: 0 0 0.05em 0;
-	font-weight: 400;
-	font-size: clamp(1rem, 8vw, 2rem);
+	font-weight: 900 !important;
+	/* font-size: clamp(1rem, 10vw, 10rem); */
 
 	line-height: 0.85em;
-	font-family: "Abril Fatface", cursive;
 }
 .credits {
 	padding-top: max(75vh, 15vh);
@@ -48,7 +44,7 @@ h2 {
 	position: absolute;
 	font-size: clamp(1rem, 1.5vw, 2rem);
 	top: clamp(4rem, 5vw, 5.5rem);
-	right: clamp(4rem, 9vw, 10rem);
+	right: clamp(4rem, 8vw, 10rem);
 }
 
 .hint {

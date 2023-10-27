@@ -21,7 +21,7 @@ export default function Content({ show, setStart }) {
 							Péter
 						</h2>
 
-						<div className="pt-2 role italic text-md/2 text-gray-800">
+						<div className="pt-2 role text-gray-800">
 							Full-stack developer
 						</div>
 					</div>
