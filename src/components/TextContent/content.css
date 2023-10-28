@@ -32,12 +32,9 @@ h2 {
 	line-height: 0.85em;
 }
 .credits {
-	padding-top: max(75vh, 15vh);
-	padding-right: max(5vw, 6.5rem);
+	padding-top: 75vh;
+	padding-right: clamp(4.2rem, 4vw, 6.5rem);
 	font-size: clamp(1rem, 1.5vw, 2rem);
-
-	display: flex;
-	justify-content: center;
 }
 
 .tutorial {

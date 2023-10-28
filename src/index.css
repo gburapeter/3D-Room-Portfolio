@@ -7,9 +7,9 @@ html,
 body,
 #root {
 	/* position: fixed; */
-	width: 100dvw;
+	width: 100svw;
 	/* pointer-events: none; */
-	height: 100dvh;
+	height: 100svh;
 	overflow: hidden;
 	background: hsla(18, 76%, 85%, 1);
 
