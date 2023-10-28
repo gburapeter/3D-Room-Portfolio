@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Habibi&family=Prompt&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Habibi&family=Prompt&display=swap"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,6 +30,6 @@ body,
 		hsla(18, 76%, 85%, 1) 0%,
 		hsla(203, 69%, 84%, 1) 100%
 	);
-	font-family: "Habibi", serif;
-	font-family: "Prompt", sans-serif;
+	/* font-family: "Habibi", serif;
+	font-family: "Prompt", sans-serif; */
 }
