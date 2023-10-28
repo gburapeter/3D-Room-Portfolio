@@ -6,9 +6,10 @@
 html,
 body,
 #root {
-	width: 100vw;
-
-	height: 100vh;
+	/* position: fixed; */
+	width: 100svw;
+	/* pointer-events: none; */
+	height: 100svh;
 	overflow: hidden;
 	background: hsla(18, 76%, 85%, 1);
 
