@@ -15,7 +15,7 @@
 }
 .socials {
 	position: absolute;
-	bottom: clamp(3rem, 3.1vw, 5.5rem);
+	bottom: clamp(2rem, 5.5vw, 8rem);
 	right: clamp(4rem, 9.5vw, 12rem);
 }
 
@@ -32,7 +32,7 @@ h2 {
 	line-height: 0.85em;
 }
 .credits {
-	padding-top: 75vh;
+	padding-top: 80vh;
 	padding-right: clamp(4.2rem, 4vw, 6.5rem);
 	font-size: clamp(1rem, 1.5vw, 2rem);
 }
