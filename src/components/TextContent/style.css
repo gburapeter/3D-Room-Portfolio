@@ -55,7 +55,7 @@
 }
 
 .blurableScreen {
-	height: calc(100svh) !important;
+	height: calc(90svh) !important;
 	width: calc(110svw) !important;
 }
 
