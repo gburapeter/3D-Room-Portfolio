@@ -4,10 +4,11 @@
 	width: 40vw;
 	/* height: calc(1.5 * 100vh);
 	padding-top: 50vh; */
-	margin-top: calc(13.3 * 100vh);
+	/* 14.7 */
+	margin-top: calc(15.2 * 100vh);
 	/* padding: calc(50vh); */
 	/* background-color: rgb(212, 228, 189); */
-	background-color: rgb(70, 123, 63);
+	/* background-color: rgb(70, 123, 63); */
 }
 
 .left {
@@ -54,6 +55,20 @@
 }
 
 .blurableScreen {
-	height: calc(100vh) !important;
-	width: calc(100vw) !important;
+	height: 90svh !important;
+	width: 110svw !important;
+}
+
+@media only screen and (max-width: 450px) {
+	.socials {
+		flex-direction: column !important;
+		bottom: clamp(1rem, 2vw, 5.5rem);
+		padding-right: 6.5vw !important;
+	}
+	.blurableScreen {
+		width: calc(120vw) !important;
+	}
+	.tutorial {
+		display: none !important;
+	}
 }
