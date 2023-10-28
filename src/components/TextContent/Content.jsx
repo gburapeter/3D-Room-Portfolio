@@ -41,7 +41,7 @@ export default function Content({ show, setStart }) {
 
 					<div className="grid place-items-center credits">
 						<button
-							className="border-2 border-blue-900 font-bold text-black bg-[rgb(162,217,249)] hover:bg-blue-600 transition-colors duration-200 hover:text-white rounded-full px-8 py-6 shadow-lg text-xl"
+							className="border border-[hsla(203, 69%, 84%, 1)]  font-bold text-white bg-blue-900 hover:bg-blue-600 transition-colors duration-200 hover:text-black rounded-full px-8 py-6 shadow-lg text-xl"
 							onClick={() => setStart()}
 						>
 							Start journey
