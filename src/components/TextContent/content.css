@@ -15,7 +15,7 @@
 }
 .socials {
 	position: absolute;
-	bottom: clamp(2rem, 5.5vw, 8rem);
+	bottom: clamp(5rem, 5.5vw, 8rem);
 	right: clamp(4rem, 9.5vw, 12rem);
 }
 
