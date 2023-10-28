@@ -23,40 +23,13 @@
 	border-bottom-left-radius: 0px 0px;
 }
 
-/* Progress bars */
-.progress-wrapper {
-	height: 0;
-	width: 12px;
-	z-index: 9999;
-}
-
-.progress-bar-wrapper-left {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.progress-bar-wrapper-right {
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-.progress-bar {
-	height: 100vh;
-	width: 100%;
-	background-color: var(--color-pink);
-	transform-origin: top center;
-	transform: scaleY(1);
-}
-
 .sectionsClass {
 	margin-top: calc(13 * 100vh);
 }
 
 .blurableScreen {
-	height: 90svh !important;
-	width: 110svw !important;
+	height: calc(100vh) !important;
+	width: calc(100vw) !important;
 }
 
 @media only screen and (max-width: 450px) {
