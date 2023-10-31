@@ -14,25 +14,27 @@ export default function Content({ show, setStart }) {
 					
 					 ${!show ? "opacity-100" : "opacity-0"}`}
 				>
-					<div className="personalName text-blue-900">
+					<div className="personalName text-[#00547C]">
 						<h2>
 							Ghiurutan-Bura
 							<br />
 							Péter
 						</h2>
 
-						<div className="pt-2 role text-gray-800">
+						<div className="pt-2 role text-[#FFF7D6]">
 							Full-stack developer
 						</div>
 					</div>
 
-					<div className="tutorial">
+					<div className="tutorial text-[#FFF7D6]">
 						<div className="flex flex-col items-center">
-							<span className="text-blue-900 hover:text-blue-900 hint font-extrabold">
+							<span className="text-[#00547C] hover:text-[#00547C] hint font-extrabold">
 								Hint:{" "}
 							</span>
-							<span className="text-left">press the button</span>
-							<div className="flex items-center">
+							<span className="text-left text-[#FFF7D6]">
+								press the button
+							</span>
+							<div className="flex items-center text-[#FFF7D6]">
 								<span className="mx-1">and</span>
 							</div>
 							<span className="text-left">keep scrolling slowly</span>
@@ -41,7 +43,7 @@ export default function Content({ show, setStart }) {
 
 					<div className="grid place-items-center credits">
 						<button
-							className="border border-[hsla(203, 69%, 84%, 1)]  font-bold text-white bg-blue-900 hover:bg-blue-600 transition-colors duration-200 hover:text-black rounded-full px-8 py-6 shadow-lg text-xl"
+							className="border border-[hsla(203, 69%, 84%, 1)]  font-bold text-[#FFF7D6] bg-[#00547C] hover:bg-blue-600 transition-colors duration-200 hover:text-black rounded-full px-8 py-6 shadow-lg text-xl"
 							onClick={() => setStart()}
 						>
 							Start journey

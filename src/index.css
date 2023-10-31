@@ -10,24 +10,14 @@ body,
 	height: 100dvh;
 	min-height: 100dvh;
 	overflow: hidden;
-	background: hsla(18, 76%, 85%, 1);
+	background-image: linear-gradient(
+		to top,
 
-	background: linear-gradient(
-		90deg,
-		hsla(18, 76%, 85%, 1) 0%,
-		hsla(203, 69%, 84%, 1) 100%
-	);
-
-	background: -moz-linear-gradient(
-		90deg,
-		hsla(18, 76%, 85%, 1) 0%,
-		hsla(203, 69%, 84%, 1) 100%
-	);
-
-	background: -webkit-linear-gradient(
-		90deg,
-		hsla(18, 76%, 85%, 1) 0%,
-		hsla(203, 69%, 84%, 1) 100%
+		#cfe8e4,
+		#a8cec9,
+		#81b5ae,
+		#79beb6,
+		#6fb4ad
 	);
 	font-family: "Habibi", serif !important;
 	font-family: "Prompt", sans-serif !important;
