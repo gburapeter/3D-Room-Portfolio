@@ -21,20 +21,20 @@ export default function Content({ show, setStart }) {
 							Péter
 						</h2>
 
-						<div className="pt-2 role text-[#FFF7D6]">
+						<div className="pt-2 role text-[#F3EADA]">
 							Full-stack developer
 						</div>
 					</div>
 
-					<div className="tutorial text-[#FFF7D6]">
+					<div className="tutorial text-[#F3EADA]">
 						<div className="flex flex-col items-center">
-							<span className="text-[#00547C] hover:text-[#00547C] hint font-extrabold">
+							<span className="text-[#00547C] hint font-extrabold">
 								Hint:{" "}
 							</span>
-							<span className="text-left text-[#FFF7D6]">
+							<span className="text-left text-[#F3EADA]">
 								press the button
 							</span>
-							<div className="flex items-center text-[#FFF7D6]">
+							<div className="flex items-center ">
 								<span className="mx-1">and</span>
 							</div>
 							<span className="text-left">keep scrolling slowly</span>
@@ -43,7 +43,7 @@ export default function Content({ show, setStart }) {
 
 					<div className="grid place-items-center credits">
 						<button
-							className="border border-[hsla(203, 69%, 84%, 1)]  font-bold text-[#FFF7D6] bg-[#00547C] hover:bg-blue-600 transition-colors duration-200 hover:text-black rounded-full px-8 py-6 shadow-lg text-xl"
+							className="border border-[hsla(203, 69%, 84%, 1)]  font-bold text-[#F3EADA] bg-[#00547C] hover:bg-blue-600 transition-colors duration-200 hover:text-black rounded-full px-8 py-6 shadow-lg text-xl"
 							onClick={() => setStart()}
 						>
 							Start journey
