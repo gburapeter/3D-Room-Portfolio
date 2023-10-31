@@ -21,19 +21,17 @@ export default function Content({ show, setStart }) {
 							Péter
 						</h2>
 
-						<div className="pt-2 role text-[#F3EADA]">
+						<div className="pt-2 role text-gray-900">
 							Full-stack developer
 						</div>
 					</div>
 
-					<div className="tutorial text-[#F3EADA]">
+					<div className="tutorial text-gray-900">
 						<div className="flex flex-col items-center">
 							<span className="text-[#00547C] hint font-extrabold">
 								Hint:{" "}
 							</span>
-							<span className="text-left text-[#F3EADA]">
-								press the button
-							</span>
+							<span className="text-left ">press the button</span>
 							<div className="flex items-center ">
 								<span className="mx-1">and</span>
 							</div>
