@@ -4,7 +4,7 @@ import "./style.css";
 export default function Content({ show, setStart }) {
 	return (
 		<div
-			className={`container transition duration-1000 ease-in-out
+			className={` transition duration-1000 ease-in-out
 					
 					blurableScreen  ${!show ? "backdrop-blur-md" : "backdrop-blur-none"}`}
 		>

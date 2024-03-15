@@ -30,7 +30,7 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 	};
 	return (
 		<>
-			<Html center>
+			<Html fullscreen>
 				<Content setStart={setStart} show={show} />
 			</Html>
 

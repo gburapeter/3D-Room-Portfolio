@@ -29,7 +29,7 @@
 
 .blurableScreen {
 	height: calc(100svh) !important;
-	width: calc(110svw) !important;
+	width: calc(100svw) !important;
 }
 
 @media only screen and (max-width: 450px) {
