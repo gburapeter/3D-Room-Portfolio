@@ -10,15 +10,11 @@ body,
 	height: 100dvh;
 	min-height: 100dvh;
 	overflow: hidden;
-	background-image: linear-gradient(
-		to top,
-
-		#cfe8e4,
-		#a8cec9,
-		#81b5ae,
-		#79beb6,
-		#6fb4ad
-	);
+	background-image: url(/static/asd1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #ffffff;
 	font-family: "Habibi", serif !important;
 	font-family: "Prompt", sans-serif !important;
 }
