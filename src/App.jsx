@@ -9,7 +9,7 @@ import { Loader, ScrollControls, Html } from "@react-three/drei";
 import demoProjectState from "./finalstate.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
-import DilatedPeoples from "../src/assets/dilated.mp3";
+import DilatedPeoples from "../src/assets/bigsound.mp3";
 
 // if (import.meta.env.DEV) {
 // 	studio.initialize();
