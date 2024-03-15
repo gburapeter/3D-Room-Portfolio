@@ -149,7 +149,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div className="prose max-w-none text-[#FFF7D6]">
+														<div className="prose max-w-none break-words text-[#FFF7D6]">
 															Project: admin panel, API for a
 															mobile app <br />
 															<span className="text-[#00BAFF] font-bold">
@@ -225,7 +225,7 @@ export const Overlay = () => {
 																</a>
 															</div>
 														</div>
-														<div className="prose max-w-none text-[#FFF7D6]">
+														<div className="prose max-w-none break-words text-[#FFF7D6]">
 															Project: sales platform for a
 															danish media group <br />
 															<span className="text-[#00BAFF] font-bold">
@@ -242,10 +242,10 @@ export const Overlay = () => {
 															Statistics implementation featuring
 															sales/number of clients/best
 															selling products, Database ORM
-															setup(models,migration,seeder,relationships),
-															sign up/authorization flow,
-															unit/feature + PHP Pest testing{" "}
-															<br />
+															setupmodels,migration,seeder,
+															relationships , sign
+															up/authorization flow, unit/feature
+															+ PHP Pest testing <br />
 															<span className="text-[#00BAFF] font-bold">
 																Front-end
 															</span>
