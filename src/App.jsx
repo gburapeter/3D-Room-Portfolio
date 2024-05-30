@@ -9,7 +9,7 @@ import { Loader, ScrollControls, Html } from "@react-three/drei";
 import demoProjectState from "./finalstate.json";
 import { useEffect } from "react";
 import useSound from "use-sound";
-import DilatedPeoples from "../src/assets/bigsound.mp3";
+import NuTone from "../src/assets/nu-logic.mp3";
 
 // if (import.meta.env.DEV) {
 // 	studio.initialize();
@@ -21,7 +21,7 @@ const demoSheet = getProject("Demo Project", { state: demoProjectState }).sheet(
 );
 
 export default function App(props) {
-	const [play, { stop }] = useSound(DilatedPeoples, {
+	const [play, { stop }] = useSound(NuTone, {
 		interrupt: true,
 		volume: 0.3,
 	});
