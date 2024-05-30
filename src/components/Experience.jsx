@@ -27,6 +27,8 @@ export default function Experience({ stopFunction, setPages, setEnabled }) {
 		// 21
 		setPages(22);
 		setShow(true);
+
+		// sheet.sequence.play({ rate: 1.5 });
 	};
 	return (
 		<>
